@@ -4,9 +4,9 @@ This repository contains several projects of practical digital design. The proje
 
 Lab descriptions:
 
- 1. Floating point converter.
- 2. Clock design.
- 3. Vending machine FSM.
- 3. Parking Meter FSM.
+ 1. [Floating point converter](1-FPCVT/report.pdf).
+ 2. [Clock design](2-clock/report.pdf).
+ 3. [Vending machine FSM](3-vendingFSM/report.pdf).
+ 3. [Parking Meter FSM](4-parkingFSM/report.pdf).
 
 Read the reports under each project folder for a more detailed descrption of the projects.
