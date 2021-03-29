@@ -1,0 +1,510 @@
+Release 14.7 - xst P.20131013 (lin64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> 
+Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.04 secs
+ 
+--> 
+Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.04 secs
+ 
+--> 
+Reading design: vending_machine.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Parsing
+  3) HDL Elaboration
+  4) HDL Synthesis
+       4.1) HDL Synthesis Report
+  5) Advanced HDL Synthesis
+       5.1) Advanced HDL Synthesis Report
+  6) Low Level Synthesis
+  7) Partition Report
+  8) Design Summary
+       8.1) Primitive and Black Box Usage
+       8.2) Device utilization summary
+       8.3) Partition Resource Summary
+       8.4) Timing Report
+            8.4.1) Clock Information
+            8.4.2) Asynchronous Control Signals Information
+            8.4.3) Timing Summary
+            8.4.4) Timing Details
+            8.4.5) Cross Clock Domains Report
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "vending_machine.prj"
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "vending_machine"
+Output Format                      : NGC
+Target Device                      : xc6slx16-3-csg324
+
+---- Source Options
+Top Module Name                    : vending_machine
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Shift Register Extraction          : YES
+ROM Style                          : Auto
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Shift Register Minimum Size        : 2
+Use DSP Block                      : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+LUT Combining                      : Auto
+Reduce Control Sets                : Auto
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 16
+Register Duplication               : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Auto
+Use Synchronous Set                : Auto
+Use Synchronous Reset              : Auto
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Power Reduction                    : NO
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+DSP48 Utilization Ratio            : 100
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Parsing                                  *
+=========================================================================
+Analyzing Verilog file "/home/ise/Desktop/Lab3/src/vending_machine.v" into library work
+Parsing module <vending_machine>.
+
+=========================================================================
+*                            HDL Elaboration                            *
+=========================================================================
+
+Elaborating module <vending_machine>.
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <vending_machine>.
+    Related source file is "/home/ise/Desktop/Lab3/src/vending_machine.v".
+        IDLE = 4'b0000
+        RELOADING = 4'b0001
+        CODE1 = 4'b0010
+        CODE2 = 4'b0011
+        TRANSACT = 4'b0100
+        VENDING = 4'b0101
+        RESETTING = 4'b0110
+    Found 3-bit register for signal <TIMER>.
+    Found 1-bit register for signal <TIMEOUT>.
+    Found 80-bit register for signal <n0157[79:0]>.
+    Found 1-bit register for signal <DOOR_OPENED>.
+    Found 1-bit register for signal <decremented>.
+    Found 1-bit register for signal <INVALID_SEL_DETECT>.
+    Found 1-bit register for signal <CODE1_STORED>.
+    Found 1-bit register for signal <CODE2_STORED>.
+    Found 4-bit register for signal <num1>.
+    Found 4-bit register for signal <num2>.
+    Found 5-bit register for signal <index>.
+    Found 4-bit register for signal <current_state>.
+    Found finite state machine <FSM_0> for signal <current_state>.
+    -----------------------------------------------------------------------
+    | States             | 7                                              |
+    | Transitions        | 28                                             |
+    | Inputs             | 11                                             |
+    | Outputs            | 11                                             |
+    | Clock              | CLK (rising_edge)                              |
+    | Reset              | RESET (positive)                               |
+    | Reset type         | synchronous                                    |
+    | Reset State        | 0110                                           |
+    | Encoding           | auto                                           |
+    | Implementation     | LUT                                            |
+    -----------------------------------------------------------------------
+    Found 4-bit subtractor for signal <index[4]_GND_1_o_sub_86_OUT> created at line 206.
+    Found 3-bit adder for signal <TIMER[2]_GND_1_o_add_1_OUT> created at line 49.
+    Found 5-bit adder for signal <GND_1_o_num1[3]_add_78_OUT> created at line 195.
+    Found 4x4-bit multiplier for signal <n0188> created at line 194.
+    Found 4-bit 20-to-1 multiplexer for signal <_n0239> created at line 198.
+    Found 4-bit 20-to-1 multiplexer for signal <index[4]_X_1_o_wide_mux_84_OUT> created at line 206.
+    Found 4-bit 8-to-1 multiplexer for signal <next_state> created at line 15.
+    Found 4-bit comparator equal for signal <n0001> created at line 50
+    Found 4-bit comparator lessequal for signal <n0039> created at line 218
+    Found 4-bit comparator lessequal for signal <n0041> created at line 220
+    Found 4-bit comparator lessequal for signal <n0046> created at line 226
+    Found 4-bit comparator lessequal for signal <n0048> created at line 228
+    Found 4-bit comparator lessequal for signal <n0050> created at line 228
+    Found 4-bit comparator lessequal for signal <n0053> created at line 230
+    Found 4-bit comparator lessequal for signal <n0055> created at line 230
+    Found 4-bit comparator lessequal for signal <PWR_1_o_ITEM_CODE[3]_LessThan_80_o> created at line 196
+    Summary:
+	inferred   1 Multiplier(s).
+	inferred   3 Adder/Subtractor(s).
+	inferred 102 D-type flip-flop(s).
+	inferred   9 Comparator(s).
+	inferred  46 Multiplexer(s).
+	inferred   1 Finite State Machine(s).
+Unit <vending_machine> synthesized.
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Multipliers                                          : 1
+ 4x4-bit multiplier                                    : 1
+# Adders/Subtractors                                   : 3
+ 3-bit adder                                           : 1
+ 4-bit subtractor                                      : 1
+ 5-bit adder                                           : 1
+# Registers                                            : 11
+ 1-bit register                                        : 6
+ 3-bit register                                        : 1
+ 4-bit register                                        : 2
+ 5-bit register                                        : 1
+ 80-bit register                                       : 1
+# Comparators                                          : 9
+ 4-bit comparator equal                                : 1
+ 4-bit comparator lessequal                            : 8
+# Multiplexers                                         : 46
+ 1-bit 2-to-1 multiplexer                              : 7
+ 3-bit 2-to-1 multiplexer                              : 7
+ 4-bit 2-to-1 multiplexer                              : 27
+ 4-bit 20-to-1 multiplexer                             : 2
+ 4-bit 8-to-1 multiplexer                              : 1
+ 80-bit 2-to-1 multiplexer                             : 2
+# FSMs                                                 : 1
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+
+Synthesizing (advanced) Unit <vending_machine>.
+	Multiplier <Mmult_n0188> in block <vending_machine> and adder/subtractor <Madd_GND_1_o_num1[3]_add_78_OUT> in block <vending_machine> are combined into a MAC<Maddsub_n0188>.
+Unit <vending_machine> synthesized (advanced).
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# MACs                                                 : 1
+ 4x4-to-5-bit MAC                                      : 1
+# Adders/Subtractors                                   : 2
+ 3-bit adder                                           : 1
+ 4-bit subtractor                                      : 1
+# Registers                                            : 102
+ Flip-Flops                                            : 102
+# Comparators                                          : 9
+ 4-bit comparator equal                                : 1
+ 4-bit comparator lessequal                            : 8
+# Multiplexers                                         : 46
+ 1-bit 2-to-1 multiplexer                              : 7
+ 3-bit 2-to-1 multiplexer                              : 7
+ 4-bit 2-to-1 multiplexer                              : 27
+ 4-bit 20-to-1 multiplexer                             : 2
+ 4-bit 8-to-1 multiplexer                              : 1
+ 80-bit 2-to-1 multiplexer                             : 2
+# FSMs                                                 : 1
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+Analyzing FSM <MFsm> for best encoding.
+Optimizing FSM <FSM_0> on signal <current_state[1:4]> with user encoding.
+-------------------
+ State | Encoding
+-------------------
+ 0000  | 0000
+ 0010  | 0010
+ 0001  | 0001
+ 0011  | 0011
+ 0100  | 0100
+ 0101  | 0101
+ 0110  | 0110
+-------------------
+WARNING:Xst:2677 - Node <num2_0> of sequential type is unconnected in block <vending_machine>.
+
+Optimizing unit <vending_machine> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block vending_machine, actual ratio is 2.
+FlipFlop index_0 has been replicated 2 time(s)
+INFO:Xst:1843 - HDL ADVISOR - FlipFlop index_0 connected to a primary input has been replicated
+FlipFlop index_1 has been replicated 2 time(s)
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 108
+ Flip-Flops                                            : 108
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Design Summary                             *
+=========================================================================
+
+Top Level Output File Name         : vending_machine.ngc
+
+Primitive and Black Box Usage:
+------------------------------
+# BELS                             : 210
+#      GND                         : 1
+#      INV                         : 1
+#      LUT2                        : 4
+#      LUT3                        : 3
+#      LUT4                        : 14
+#      LUT5                        : 91
+#      LUT6                        : 85
+#      MUXCY                       : 1
+#      MUXF7                       : 8
+#      XORCY                       : 2
+# FlipFlops/Latches                : 108
+#      FD                          : 4
+#      FDE                         : 97
+#      FDR                         : 5
+#      FDS                         : 2
+# Clock Buffers                    : 1
+#      BUFGP                       : 1
+# IO Buffers                       : 16
+#      IBUF                        : 10
+#      OBUF                        : 6
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 6slx16csg324-3 
+
+
+Slice Logic Utilization: 
+ Number of Slice Registers:             108  out of  18224     0%  
+ Number of Slice LUTs:                  198  out of   9112     2%  
+    Number used as Logic:               198  out of   9112     2%  
+
+Slice Logic Distribution: 
+ Number of LUT Flip Flop pairs used:    205
+   Number with an unused Flip Flop:      97  out of    205    47%  
+   Number with an unused LUT:             7  out of    205     3%  
+   Number of fully used LUT-FF pairs:   101  out of    205    49%  
+   Number of unique control sets:         6
+
+IO Utilization: 
+ Number of IOs:                          17
+ Number of bonded IOBs:                  17  out of    232     7%  
+
+Specific Feature Utilization:
+ Number of BUFG/BUFGCTRLs:                1  out of     16     6%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+Timing Report
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+CLK                                | BUFGP                  | 108   |
+-----------------------------------+------------------------+-------+
+
+Asynchronous Control Signals Information:
+----------------------------------------
+No asynchronous control signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -3
+
+   Minimum period: 5.684ns (Maximum Frequency: 175.928MHz)
+   Minimum input arrival time before clock: 5.955ns
+   Maximum output required time after clock: 7.233ns
+   Maximum combinational path delay: 6.718ns
+
+Timing Details:
+---------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'CLK'
+  Clock period: 5.684ns (frequency: 175.928MHz)
+  Total number of paths / destination ports: 7955 / 195
+-------------------------------------------------------------------------
+Delay:               5.684ns (Levels of Logic = 5)
+  Source:            counters_0_32 (FF)
+  Destination:       counters_0_2 (FF)
+  Source Clock:      CLK rising
+  Destination Clock: CLK rising
+
+  Data Path: counters_0_32 to counters_0_2
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDE:C->Q              3   0.447   1.015  counters_0_32 (counters_0_32)
+     LUT6:I0->O            1   0.203   0.827  Mmux_index[4]_X_1_o_wide_mux_84_OUT_91 (Mmux_index[4]_X_1_o_wide_mux_84_OUT_91)
+     LUT6:I2->O            1   0.203   0.000  Mmux_index[4]_X_1_o_wide_mux_84_OUT_4 (Mmux_index[4]_X_1_o_wide_mux_84_OUT_4)
+     MUXF7:I0->O          44   0.131   1.463  Mmux_index[4]_X_1_o_wide_mux_84_OUT_2_f7 (Msub_index[4]_GND_1_o_sub_86_OUT_cy<0>)
+     LUT5:I4->O           11   0.205   0.883  Mmux__n02531011 (Mmux__n0253101)
+     LUT5:I4->O            1   0.205   0.000  Mmux__n0253102 (_n0253<18>)
+     FDE:D                     0.102          counters_0_18
+    ----------------------------------------
+    Total                      5.684ns (1.496ns logic, 4.188ns route)
+                                       (26.3% logic, 73.7% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'CLK'
+  Total number of paths / destination ports: 163 / 50
+-------------------------------------------------------------------------
+Offset:              5.955ns (Levels of Logic = 6)
+  Source:            ITEM_CODE<1> (PAD)
+  Destination:       INVALID_SEL_DETECT (FF)
+  Destination Clock: CLK rising
+
+  Data Path: ITEM_CODE<1> to INVALID_SEL_DETECT
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             7   1.222   0.878  ITEM_CODE_1_IBUF (ITEM_CODE_1_IBUF)
+     LUT2:I0->O           23   0.203   1.154  Maddsub_n0188_Madd_lut<1>1 (Maddsub_n0188_Madd_lut<1>)
+     LUT6:I5->O            1   0.205   0.827  Mmux__n0239_91 (Mmux__n0239_91)
+     LUT6:I2->O            1   0.203   0.000  Mmux__n0239_4 (Mmux__n0239_4)
+     MUXF7:I0->O           1   0.131   0.827  Mmux__n0239_2_f7 (_n0239<0>)
+     LUT6:I2->O            1   0.203   0.000  INVALID_SEL_DETECT_dpot (INVALID_SEL_DETECT_dpot)
+     FDE:D                     0.102          INVALID_SEL_DETECT
+    ----------------------------------------
+    Total                      5.955ns (2.269ns logic, 3.686ns route)
+                                       (38.1% logic, 61.9% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'CLK'
+  Total number of paths / destination ports: 49 / 6
+-------------------------------------------------------------------------
+Offset:              7.233ns (Levels of Logic = 3)
+  Source:            current_state_FSM_FFd3 (FF)
+  Destination:       COST<2> (PAD)
+  Source Clock:      CLK rising
+
+  Data Path: current_state_FSM_FFd3 to COST<2>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDS:C->Q            105   0.447   2.235  current_state_FSM_FFd3 (current_state_FSM_FFd3)
+     LUT5:I0->O            3   0.203   0.995  COST<0>11 (COST<0>1)
+     LUT6:I1->O            1   0.203   0.579  COST<0>2 (COST_0_OBUF)
+     OBUF:I->O                 2.571          COST_0_OBUF (COST<0>)
+    ----------------------------------------
+    Total                      7.233ns (3.424ns logic, 3.809ns route)
+                                       (47.3% logic, 52.7% route)
+
+=========================================================================
+Timing constraint: Default path analysis
+  Total number of paths / destination ports: 6 / 6
+-------------------------------------------------------------------------
+Delay:               6.718ns (Levels of Logic = 4)
+  Source:            VALID_TRAN (PAD)
+  Destination:       COST<2> (PAD)
+
+  Data Path: VALID_TRAN to COST<2>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             5   1.222   0.943  VALID_TRAN_IBUF (VALID_TRAN_IBUF)
+     LUT5:I2->O            3   0.205   0.995  COST<0>11 (COST<0>1)
+     LUT6:I1->O            1   0.203   0.579  COST<0>2 (COST_0_OBUF)
+     OBUF:I->O                 2.571          COST_0_OBUF (COST<0>)
+    ----------------------------------------
+    Total                      6.718ns (4.201ns logic, 2.517ns route)
+                                       (62.5% logic, 37.5% route)
+
+=========================================================================
+
+Cross Clock Domains Report:
+--------------------------
+
+Clock to Setup on destination clock CLK
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+CLK            |    5.684|         |         |         |
+---------------+---------+---------+---------+---------+
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 4.00 secs
+Total CPU time to Xst completion: 3.60 secs
+ 
+--> 
+
+
+Total memory usage is 484480 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    1 (   0 filtered)
+Number of infos    :    1 (   0 filtered)
+

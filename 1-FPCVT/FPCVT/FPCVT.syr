@@ -1,0 +1,392 @@
+Release 14.7 - xst P.20131013 (lin64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> 
+Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.05 secs
+ 
+--> 
+Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.05 secs
+ 
+--> 
+Reading design: FPCVT.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Parsing
+  3) HDL Elaboration
+  4) HDL Synthesis
+       4.1) HDL Synthesis Report
+  5) Advanced HDL Synthesis
+       5.1) Advanced HDL Synthesis Report
+  6) Low Level Synthesis
+  7) Partition Report
+  8) Design Summary
+       8.1) Primitive and Black Box Usage
+       8.2) Device utilization summary
+       8.3) Partition Resource Summary
+       8.4) Timing Report
+            8.4.1) Clock Information
+            8.4.2) Asynchronous Control Signals Information
+            8.4.3) Timing Summary
+            8.4.4) Timing Details
+            8.4.5) Cross Clock Domains Report
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "FPCVT.prj"
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "FPCVT"
+Output Format                      : NGC
+Target Device                      : xc6slx16-3-csg324
+
+---- Source Options
+Top Module Name                    : FPCVT
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Shift Register Extraction          : YES
+ROM Style                          : Auto
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Shift Register Minimum Size        : 2
+Use DSP Block                      : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+LUT Combining                      : Auto
+Reduce Control Sets                : Auto
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 16
+Register Duplication               : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Auto
+Use Synchronous Set                : Auto
+Use Synchronous Reset              : Auto
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Power Reduction                    : NO
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+DSP48 Utilization Ratio            : 100
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Parsing                                  *
+=========================================================================
+Analyzing Verilog file "/home/ise/Desktop/Lab1/src/FPCVT.v" into library work
+Parsing module <twos2SignMag>.
+Parsing module <basicLin2FP>.
+Parsing module <rounder>.
+Parsing module <FPCVT>.
+
+=========================================================================
+*                            HDL Elaboration                            *
+=========================================================================
+
+Elaborating module <FPCVT>.
+
+Elaborating module <twos2SignMag>.
+
+Elaborating module <basicLin2FP>.
+
+Elaborating module <rounder>.
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <FPCVT>.
+    Related source file is "/home/ise/Desktop/Lab1/src/FPCVT.v".
+    Summary:
+	no macro.
+Unit <FPCVT> synthesized.
+
+Synthesizing Unit <twos2SignMag>.
+    Related source file is "/home/ise/Desktop/Lab1/src/FPCVT.v".
+    Found 13-bit adder for signal <D[12]_GND_2_o_add_1_OUT> created at line 8.
+    Summary:
+	inferred   1 Adder/Subtractor(s).
+	inferred   2 Multiplexer(s).
+Unit <twos2SignMag> synthesized.
+
+Synthesizing Unit <basicLin2FP>.
+    Related source file is "/home/ise/Desktop/Lab1/src/FPCVT.v".
+    Found 4-bit subtractor for signal <GND_3_o_GND_3_o_sub_9_OUT> created at line 49.
+    Found 13-bit shifter logical right for signal <n0023> created at line 49
+    Found 13-bit shifter logical right for signal <n0024> created at line 51
+    Summary:
+	inferred   1 Adder/Subtractor(s).
+	inferred   9 Multiplexer(s).
+	inferred   2 Combinational logic shifter(s).
+Unit <basicLin2FP> synthesized.
+
+Synthesizing Unit <rounder>.
+    Related source file is "/home/ise/Desktop/Lab1/src/FPCVT.v".
+    Found 5-bit adder for signal <Fin[4]_GND_5_o_add_0_OUT> created at line 72.
+    Found 3-bit adder for signal <Ein[2]_GND_5_o_add_2_OUT> created at line 78.
+    Found 5-bit comparator lessequal for signal <n0001> created at line 77
+    Found 3-bit comparator lessequal for signal <n0004> created at line 83
+    Summary:
+	inferred   2 Adder/Subtractor(s).
+	inferred   2 Comparator(s).
+	inferred   6 Multiplexer(s).
+Unit <rounder> synthesized.
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Adders/Subtractors                                   : 4
+ 13-bit adder                                          : 1
+ 3-bit adder                                           : 1
+ 4-bit subtractor                                      : 1
+ 5-bit adder                                           : 1
+# Comparators                                          : 2
+ 3-bit comparator lessequal                            : 1
+ 5-bit comparator lessequal                            : 1
+# Multiplexers                                         : 17
+ 1-bit 2-to-1 multiplexer                              : 1
+ 13-bit 2-to-1 multiplexer                             : 3
+ 3-bit 2-to-1 multiplexer                              : 9
+ 5-bit 2-to-1 multiplexer                              : 4
+# Logic shifters                                       : 2
+ 13-bit shifter logical right                          : 2
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# Adders/Subtractors                                   : 4
+ 13-bit adder                                          : 1
+ 3-bit adder                                           : 1
+ 4-bit subtractor                                      : 1
+ 5-bit adder                                           : 1
+# Comparators                                          : 2
+ 3-bit comparator lessequal                            : 1
+ 5-bit comparator lessequal                            : 1
+# Multiplexers                                         : 17
+ 1-bit 2-to-1 multiplexer                              : 1
+ 13-bit 2-to-1 multiplexer                             : 3
+ 3-bit 2-to-1 multiplexer                              : 9
+ 5-bit 2-to-1 multiplexer                              : 4
+# Logic shifters                                       : 2
+ 13-bit shifter logical right                          : 2
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <FPCVT> ...
+
+Optimizing unit <twos2SignMag> ...
+
+Optimizing unit <basicLin2FP> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block FPCVT, actual ratio is 0.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Found no macro
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Design Summary                             *
+=========================================================================
+
+Top Level Output File Name         : FPCVT.ngc
+
+Primitive and Black Box Usage:
+------------------------------
+# BELS                             : 81
+#      GND                         : 1
+#      INV                         : 12
+#      LUT1                        : 1
+#      LUT4                        : 15
+#      LUT5                        : 8
+#      LUT6                        : 18
+#      MUXCY                       : 12
+#      VCC                         : 1
+#      XORCY                       : 13
+# IO Buffers                       : 22
+#      IBUF                        : 13
+#      OBUF                        : 9
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 6slx16csg324-3 
+
+
+Slice Logic Utilization: 
+ Number of Slice LUTs:                   54  out of   9112     0%  
+    Number used as Logic:                54  out of   9112     0%  
+
+Slice Logic Distribution: 
+ Number of LUT Flip Flop pairs used:     54
+   Number with an unused Flip Flop:      54  out of     54   100%  
+   Number with an unused LUT:             0  out of     54     0%  
+   Number of fully used LUT-FF pairs:     0  out of     54     0%  
+   Number of unique control sets:         0
+
+IO Utilization: 
+ Number of IOs:                          22
+ Number of bonded IOBs:                  22  out of    232     9%  
+
+Specific Feature Utilization:
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+Timing Report
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+No clock signals found in this design
+
+Asynchronous Control Signals Information:
+----------------------------------------
+No asynchronous control signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -3
+
+   Minimum period: No path found
+   Minimum input arrival time before clock: No path found
+   Maximum output required time after clock: No path found
+   Maximum combinational path delay: 14.193ns
+
+Timing Details:
+---------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default path analysis
+  Total number of paths / destination ports: 39240 / 9
+-------------------------------------------------------------------------
+Delay:               14.193ns (Levels of Logic = 23)
+  Source:            D<0> (PAD)
+  Destination:       E<0> (PAD)
+
+  Data Path: D<0> to E<0>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             2   1.222   0.617  D_0_IBUF (D_0_IBUF)
+     LUT1:I0->O            1   0.205   0.000  block1/Madd_D[12]_GND_2_o_add_1_OUT_cy<0>_rt (block1/Madd_D[12]_GND_2_o_add_1_OUT_cy<0>_rt)
+     MUXCY:S->O            1   0.172   0.000  block1/Madd_D[12]_GND_2_o_add_1_OUT_cy<0> (block1/Madd_D[12]_GND_2_o_add_1_OUT_cy<0>)
+     MUXCY:CI->O           1   0.019   0.000  block1/Madd_D[12]_GND_2_o_add_1_OUT_cy<1> (block1/Madd_D[12]_GND_2_o_add_1_OUT_cy<1>)
+     MUXCY:CI->O           1   0.019   0.000  block1/Madd_D[12]_GND_2_o_add_1_OUT_cy<2> (block1/Madd_D[12]_GND_2_o_add_1_OUT_cy<2>)
+     MUXCY:CI->O           1   0.019   0.000  block1/Madd_D[12]_GND_2_o_add_1_OUT_cy<3> (block1/Madd_D[12]_GND_2_o_add_1_OUT_cy<3>)
+     MUXCY:CI->O           1   0.019   0.000  block1/Madd_D[12]_GND_2_o_add_1_OUT_cy<4> (block1/Madd_D[12]_GND_2_o_add_1_OUT_cy<4>)
+     MUXCY:CI->O           1   0.019   0.000  block1/Madd_D[12]_GND_2_o_add_1_OUT_cy<5> (block1/Madd_D[12]_GND_2_o_add_1_OUT_cy<5>)
+     MUXCY:CI->O           1   0.019   0.000  block1/Madd_D[12]_GND_2_o_add_1_OUT_cy<6> (block1/Madd_D[12]_GND_2_o_add_1_OUT_cy<6>)
+     MUXCY:CI->O           1   0.019   0.000  block1/Madd_D[12]_GND_2_o_add_1_OUT_cy<7> (block1/Madd_D[12]_GND_2_o_add_1_OUT_cy<7>)
+     MUXCY:CI->O           1   0.019   0.000  block1/Madd_D[12]_GND_2_o_add_1_OUT_cy<8> (block1/Madd_D[12]_GND_2_o_add_1_OUT_cy<8>)
+     MUXCY:CI->O           1   0.019   0.000  block1/Madd_D[12]_GND_2_o_add_1_OUT_cy<9> (block1/Madd_D[12]_GND_2_o_add_1_OUT_cy<9>)
+     MUXCY:CI->O           1   0.019   0.000  block1/Madd_D[12]_GND_2_o_add_1_OUT_cy<10> (block1/Madd_D[12]_GND_2_o_add_1_OUT_cy<10>)
+     MUXCY:CI->O           0   0.019   0.000  block1/Madd_D[12]_GND_2_o_add_1_OUT_cy<11> (block1/Madd_D[12]_GND_2_o_add_1_OUT_cy<11>)
+     XORCY:CI->O          13   0.180   1.161  block1/Madd_D[12]_GND_2_o_add_1_OUT_xor<12> (block1/D[12]_GND_2_o_add_1_OUT<12>)
+     LUT4:I1->O            8   0.205   1.147  block1/Mmux_mag121 (b1mag<8>)
+     LUT6:I1->O           11   0.203   0.883  block2/Mmux_E11 (block2/Mmux_E1)
+     LUT5:I4->O            2   0.205   0.981  block2/Mmux_E12 (b2E<0>)
+     LUT6:I0->O            2   0.203   0.981  block2/Sh41 (block2/Sh4)
+     LUT6:I0->O            2   0.203   0.864  block2/Mmux_F51 (b2F<4>)
+     LUT6:I2->O            3   0.203   0.995  block3/Mmux_E121 (block3/Mmux_E12)
+     LUT5:I0->O            1   0.203   0.579  block3/Mmux_E11 (E_0_OBUF)
+     OBUF:I->O                 2.571          E_0_OBUF (E<0>)
+    ----------------------------------------
+    Total                     14.193ns (5.984ns logic, 8.209ns route)
+                                       (42.2% logic, 57.8% route)
+
+=========================================================================
+
+Cross Clock Domains Report:
+--------------------------
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 4.00 secs
+Total CPU time to Xst completion: 4.34 secs
+ 
+--> 
+
+
+Total memory usage is 474596 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    0 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

@@ -1,0 +1,201 @@
+ISim log file
+Running: /home/ise/Desktop/Lab4/parking_meter/testbench_305176399_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb /home/ise/Desktop/Lab4/parking_meter/testbench_305176399_isim_beh.wdb 
+ISim P.20131013 (signature 0xfbc00daa)
+WARNING: A WEBPACK license was found.
+WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
+WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
+This is a Lite version of ISim.
+Time resolution is 1 ps
+# onerror resume
+# wave add /
+ISim P.20131013 (signature 0xfbc00daa)
+WARNING: A WEBPACK license was found.
+WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
+WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
+This is a Lite version of ISim.
+# run all
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+INITIAL to TWO
+INITIAL to TWO
+Stopped at time : 711100 ms : File "/home/ise/Desktop/Lab4/src/testbench_305176399.v" Line 51
+ISim P.20131013 (signature 0xfbc00daa)
+WARNING: A WEBPACK license was found.
+WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
+WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
+This is a Lite version of ISim.
+# run all
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+Stopped at time : 1861100 ms : File "/home/ise/Desktop/Lab4/src/testbench_305176399.v" Line 57
+ISim P.20131013 (signature 0xfbc00daa)
+WARNING: A WEBPACK license was found.
+WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
+WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
+This is a Lite version of ISim.
+# run all
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+Stopped at time : 1211100 ms : File "/home/ise/Desktop/Lab4/src/testbench_305176399.v" Line 57
+ISim P.20131013 (signature 0xfbc00daa)
+WARNING: A WEBPACK license was found.
+WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
+WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
+This is a Lite version of ISim.
+# run all
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+Stopped at time : 1221100 ms : File "/home/ise/Desktop/Lab4/src/testbench_305176399.v" Line 57
+ISim P.20131013 (signature 0xfbc00daa)
+WARNING: A WEBPACK license was found.
+WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
+WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
+This is a Lite version of ISim.
+# run all
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+Stopped at time : 1220100 ms : File "/home/ise/Desktop/Lab4/src/testbench_305176399.v" Line 57
+ISim P.20131013 (signature 0xfbc00daa)
+WARNING: A WEBPACK license was found.
+WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
+WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
+This is a Lite version of ISim.
+# run all
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+Stopped at time : 1220 s : File "/home/ise/Desktop/Lab4/src/testbench_305176399.v" Line 57
+ISim P.20131013 (signature 0xfbc00daa)
+WARNING: A WEBPACK license was found.
+WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
+WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
+This is a Lite version of ISim.
+# run all
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+Stopped at time : 1210100 ms : File "/home/ise/Desktop/Lab4/src/testbench_305176399.v" Line 57
+ISim P.20131013 (signature 0xfbc00daa)
+WARNING: A WEBPACK license was found.
+WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
+WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
+This is a Lite version of ISim.
+# run all
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+Stopped at time : 1211100 ms : File "/home/ise/Desktop/Lab4/src/testbench_305176399.v" Line 57
+ISim P.20131013 (signature 0xfbc00daa)
+WARNING: A WEBPACK license was found.
+WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
+WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
+This is a Lite version of ISim.
+# run all
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+Stopped at time : 1211100 ms : File "/home/ise/Desktop/Lab4/src/testbench_305176399.v" Line 57
+ISim P.20131013 (signature 0xfbc00daa)
+WARNING: A WEBPACK license was found.
+WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
+WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
+This is a Lite version of ISim.
+# run all
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+Stopped at time : 1211100 ms : File "/home/ise/Desktop/Lab4/src/testbench_305176399.v" Line 62
+ISim P.20131013 (signature 0xfbc00daa)
+WARNING: A WEBPACK license was found.
+WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
+WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
+This is a Lite version of ISim.
+# run all
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+Stopped at time : 1211100 ms : File "/home/ise/Desktop/Lab4/src/testbench_305176399.v" Line 62
+ISim P.20131013 (signature 0xfbc00daa)
+WARNING: A WEBPACK license was found.
+WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
+WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
+This is a Lite version of ISim.
+# run all
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+Stopped at time : 1211100 ms : File "/home/ise/Desktop/Lab4/src/testbench_305176399.v" Line 67
+ISim P.20131013 (signature 0xfbc00daa)
+WARNING: A WEBPACK license was found.
+WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
+WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
+This is a Lite version of ISim.
+# run all
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+Stopped at time : 1311100 ms : File "/home/ise/Desktop/Lab4/src/testbench_305176399.v" Line 67
+ISim P.20131013 (signature 0xfbc00daa)
+WARNING: A WEBPACK license was found.
+WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
+WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
+This is a Lite version of ISim.
+# run all
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+Stopped at time : 661100 ms : File "/home/ise/Desktop/Lab4/src/testbench_305176399.v" Line 67
+ISim P.20131013 (signature 0xfbc00daa)
+WARNING: A WEBPACK license was found.
+WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
+WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
+This is a Lite version of ISim.
+# run all
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+Stopped at time : 131 s : File "/home/ise/Desktop/Lab4/src/testbench_305176399.v" Line 78
+ISim P.20131013 (signature 0xfbc00daa)
+WARNING: A WEBPACK license was found.
+WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
+WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
+This is a Lite version of ISim.
+# run all
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+Stopped at time : 162 s : File "/home/ise/Desktop/Lab4/src/testbench_305176399.v" Line 84
+ISim P.20131013 (signature 0xfbc00daa)
+WARNING: A WEBPACK license was found.
+WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
+WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
+This is a Lite version of ISim.
+# run all
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+Stopped at time : 1473100 ms : File "/home/ise/Desktop/Lab4/src/testbench_305176399.v" Line 84
+ISim P.20131013 (signature 0xfbc00daa)
+WARNING: A WEBPACK license was found.
+WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
+WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
+This is a Lite version of ISim.
+# run all
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+Stopped at time : 1473100 ms : File "/home/ise/Desktop/Lab4/src/testbench_305176399.v" Line 84
+ISim P.20131013 (signature 0xfbc00daa)
+WARNING: A WEBPACK license was found.
+WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
+WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
+This is a Lite version of ISim.
+# run all
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+Stopped at time : 1473100 ms : File "/home/ise/Desktop/Lab4/src/testbench_305176399.v" Line 84
+ISim P.20131013 (signature 0xfbc00daa)
+WARNING: A WEBPACK license was found.
+WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
+WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
+This is a Lite version of ISim.
+# run all
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+Stopped at time : 4556400 ms : File "/home/ise/Desktop/Lab4/src/testbench_305176399.v" Line 81
+ISim P.20131013 (signature 0xfbc00daa)
+WARNING: A WEBPACK license was found.
+WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
+WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
+This is a Lite version of ISim.
+# run all
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+Stopped at time : 455640 ms : File "/home/ise/Desktop/Lab4/src/testbench_305176399.v" Line 81

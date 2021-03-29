@@ -1,0 +1,2206 @@
+ISim log file
+Running: /home/ise/Desktop/Lab3/vending_machine/testbench_305176399_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb /home/ise/Desktop/Lab3/vending_machine/testbench_305176399_isim_beh.wdb 
+ISim P.20131013 (signature 0xfbc00daa)
+WARNING: A WEBPACK license was found.
+WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
+WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
+This is a Lite version of ISim.
+Time resolution is 1 ps
+# onerror resume
+# wave add /
+# run all
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+>> TEST: no reload
+	 INVALID_SEL
+>> TEST: valid run
+>> TEST: full to empty slot
+FINISHED VALID CYCLE:           0
+FINISHED VALID CYCLE:           1
+FINISHED VALID CYCLE:           2
+FINISHED VALID CYCLE:           3
+FINISHED VALID CYCLE:           4
+FINISHED VALID CYCLE:           5
+FINISHED VALID CYCLE:           6
+FINISHED VALID CYCLE:           7
+FINISHED VALID CYCLE:           8
+FINISHED VALID CYCLE:           9
+	 INVALID_SEL
+FINISHED VALID CYCLE:          10
+	 INVALID_SEL
+FINISHED VALID CYCLE:          11
+>> TEST: invalid selection number
+	 INVALID_SEL
+>> TEST: invalid selection first number timeout
+	 reset to IDLE
+	 reset to IDLE
+Stopped at time : 1785 ns : File "/home/ise/Desktop/Lab3/src/testbench_305176399.v" Line 122
+ISim P.20131013 (signature 0xfbc00daa)
+WARNING: A WEBPACK license was found.
+WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
+WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
+This is a Lite version of ISim.
+# run all
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+>> TEST: no reload
+>> TEST: valid run
+>> TEST: full to empty slot
+FINISHED VALID CYCLE:           0
+FINISHED VALID CYCLE:           1
+FINISHED VALID CYCLE:           2
+FINISHED VALID CYCLE:           3
+FINISHED VALID CYCLE:           4
+FINISHED VALID CYCLE:           5
+FINISHED VALID CYCLE:           6
+FINISHED VALID CYCLE:           7
+FINISHED VALID CYCLE:           8
+FINISHED VALID CYCLE:           9
+FINISHED VALID CYCLE:          10
+FINISHED VALID CYCLE:          11
+>> TEST: invalid selection number
+	 INVALID_SEL
+>> TEST: invalid selection first number timeout
+	 reset to IDLE
+	 reset to IDLE
+Stopped at time : 1785 ns : File "/home/ise/Desktop/Lab3/src/testbench_305176399.v" Line 122
+ISim P.20131013 (signature 0xfbc00daa)
+WARNING: A WEBPACK license was found.
+WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
+WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
+This is a Lite version of ISim.
+# run all
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+>> TEST: no reload
+>> TEST: valid run
+>> TEST: full to empty slot
+FINISHED VALID CYCLE:           0
+FINISHED VALID CYCLE:           1
+FINISHED VALID CYCLE:           2
+FINISHED VALID CYCLE:           3
+FINISHED VALID CYCLE:           4
+FINISHED VALID CYCLE:           5
+FINISHED VALID CYCLE:           6
+FINISHED VALID CYCLE:           7
+FINISHED VALID CYCLE:           8
+FINISHED VALID CYCLE:           9
+FINISHED VALID CYCLE:          10
+FINISHED VALID CYCLE:          11
+>> TEST: invalid selection number
+>> TEST: invalid selection first number timeout
+	 reset to IDLE
+	 reset to IDLE
+Stopped at time : 1785 ns : File "/home/ise/Desktop/Lab3/src/testbench_305176399.v" Line 122
+ISim P.20131013 (signature 0xfbc00daa)
+WARNING: A WEBPACK license was found.
+WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
+WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
+This is a Lite version of ISim.
+# run all
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+>> TEST: no reload
+>> TEST: valid run
+>> TEST: full to empty slot
+FINISHED VALID CYCLE:           0
+FINISHED VALID CYCLE:           1
+FINISHED VALID CYCLE:           2
+FINISHED VALID CYCLE:           3
+FINISHED VALID CYCLE:           4
+FINISHED VALID CYCLE:           5
+FINISHED VALID CYCLE:           6
+FINISHED VALID CYCLE:           7
+FINISHED VALID CYCLE:           8
+FINISHED VALID CYCLE:           9
+FINISHED VALID CYCLE:          10
+FINISHED VALID CYCLE:          11
+>> TEST: invalid selection number
+>> TEST: invalid selection first number timeout
+	 reset to IDLE
+	 reset to IDLE
+Stopped at time : 1785 ns : File "/home/ise/Desktop/Lab3/src/testbench_305176399.v" Line 122
+ISim P.20131013 (signature 0xfbc00daa)
+WARNING: A WEBPACK license was found.
+WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
+WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
+This is a Lite version of ISim.
+# run all
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+>> TEST: no reload
+	 INVALID_SEL
+>> TEST: valid run
+>> TEST: full to empty slot
+FINISHED VALID CYCLE:           0
+FINISHED VALID CYCLE:           1
+FINISHED VALID CYCLE:           2
+FINISHED VALID CYCLE:           3
+FINISHED VALID CYCLE:           4
+FINISHED VALID CYCLE:           5
+FINISHED VALID CYCLE:           6
+FINISHED VALID CYCLE:           7
+FINISHED VALID CYCLE:           8
+FINISHED VALID CYCLE:           9
+	 INVALID_SEL
+FINISHED VALID CYCLE:          10
+	 INVALID_SEL
+FINISHED VALID CYCLE:          11
+>> TEST: invalid selection number
+	 INVALID_SEL
+>> TEST: invalid selection first number timeout
+	 reset to IDLE
+	 reset to IDLE
+Stopped at time : 1785 ns : File "/home/ise/Desktop/Lab3/src/testbench_305176399.v" Line 122
+ISim P.20131013 (signature 0xfbc00daa)
+WARNING: A WEBPACK license was found.
+WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
+WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
+This is a Lite version of ISim.
+# run all
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+>> TEST: no reload
+	 INVALID_SEL
+>> TEST: valid run
+>> TEST: full to empty slot
+FINISHED VALID CYCLE:           0
+FINISHED VALID CYCLE:           1
+FINISHED VALID CYCLE:           2
+FINISHED VALID CYCLE:           3
+FINISHED VALID CYCLE:           4
+FINISHED VALID CYCLE:           5
+FINISHED VALID CYCLE:           6
+FINISHED VALID CYCLE:           7
+FINISHED VALID CYCLE:           8
+FINISHED VALID CYCLE:           9
+	 INVALID_SEL
+FINISHED VALID CYCLE:          10
+	 INVALID_SEL
+FINISHED VALID CYCLE:          11
+>> TEST: invalid selection number
+	 INVALID_SEL
+>> TEST: invalid selection first number timeout
+	 reset to IDLE
+	 reset to IDLE
+Stopped at time : 1785 ns : File "/home/ise/Desktop/Lab3/src/testbench_305176399.v" Line 122
+ISim P.20131013 (signature 0xfbc00daa)
+WARNING: A WEBPACK license was found.
+WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
+WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
+This is a Lite version of ISim.
+# run all
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+>> TEST: no reload
+	 INVALID_SEL
+>> TEST: valid run
+>> TEST: full to empty slot
+FINISHED VALID CYCLE:           0
+FINISHED VALID CYCLE:           1
+FINISHED VALID CYCLE:           2
+FINISHED VALID CYCLE:           3
+FINISHED VALID CYCLE:           4
+FINISHED VALID CYCLE:           5
+FINISHED VALID CYCLE:           6
+FINISHED VALID CYCLE:           7
+FINISHED VALID CYCLE:           8
+FINISHED VALID CYCLE:           9
+	 INVALID_SEL
+FINISHED VALID CYCLE:          10
+	 INVALID_SEL
+FINISHED VALID CYCLE:          11
+>> TEST: invalid selection number
+	 INVALID_SEL
+>> TEST: code timeout
+	 reset to IDLE: first number timeout
+	 reset to IDLE: second number timeout
+Stopped at time : 1785 ns : File "/home/ise/Desktop/Lab3/src/testbench_305176399.v" Line 122
+ISim P.20131013 (signature 0xfbc00daa)
+WARNING: A WEBPACK license was found.
+WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
+WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
+This is a Lite version of ISim.
+# run all
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+>> TEST: no reload
+	 INVALID_SEL
+>> TEST: valid run
+>> TEST: full to empty slot
+FINISHED VALID CYCLE:           0
+FINISHED VALID CYCLE:           1
+FINISHED VALID CYCLE:           2
+FINISHED VALID CYCLE:           3
+FINISHED VALID CYCLE:           4
+FINISHED VALID CYCLE:           5
+FINISHED VALID CYCLE:           6
+FINISHED VALID CYCLE:           7
+FINISHED VALID CYCLE:           8
+FINISHED VALID CYCLE:           9
+	 INVALID_SEL
+FINISHED VALID CYCLE:          10
+	 INVALID_SEL
+FINISHED VALID CYCLE:          11
+>> TEST: invalid selection number
+	 INVALID_SEL
+>> TEST: code timeout
+	 reset to IDLE: first number timeout
+	 reset to IDLE: second number timeout
+Stopped at time : 1785 ns : File "/home/ise/Desktop/Lab3/src/testbench_305176399.v" Line 122
+ISim P.20131013 (signature 0xfbc00daa)
+WARNING: A WEBPACK license was found.
+WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
+WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
+This is a Lite version of ISim.
+# run all
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+>> TEST: no reload
+	 INVALID_SEL
+>> TEST: valid run
+>> TEST: full to empty slot
+FINISHED VALID CYCLE:           0
+	 INVALID_SEL
+FINISHED VALID CYCLE:           1
+	 INVALID_SEL
+FINISHED VALID CYCLE:           2
+	 INVALID_SEL
+FINISHED VALID CYCLE:           3
+	 INVALID_SEL
+FINISHED VALID CYCLE:           4
+	 INVALID_SEL
+FINISHED VALID CYCLE:           5
+	 INVALID_SEL
+FINISHED VALID CYCLE:           6
+	 INVALID_SEL
+FINISHED VALID CYCLE:           7
+	 INVALID_SEL
+FINISHED VALID CYCLE:           8
+	 INVALID_SEL
+FINISHED VALID CYCLE:           9
+	 INVALID_SEL
+FINISHED VALID CYCLE:          10
+	 INVALID_SEL
+FINISHED VALID CYCLE:          11
+>> TEST: invalid selection number
+>> TEST: code timeout
+	 reset to IDLE: first number timeout
+	 reset to IDLE: second number timeout
+Stopped at time : 1785 ns : File "/home/ise/Desktop/Lab3/src/testbench_305176399.v" Line 122
+ISim P.20131013 (signature 0xfbc00daa)
+WARNING: A WEBPACK license was found.
+WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
+WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
+This is a Lite version of ISim.
+# run all
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+>> TEST: no reload
+	 INVALID_SEL
+>> TEST: valid run
+>> TEST: full to empty slot
+FINISHED VALID CYCLE:           0
+	 INVALID_SEL
+FINISHED VALID CYCLE:           1
+	 INVALID_SEL
+FINISHED VALID CYCLE:           2
+	 INVALID_SEL
+FINISHED VALID CYCLE:           3
+	 INVALID_SEL
+FINISHED VALID CYCLE:           4
+	 INVALID_SEL
+FINISHED VALID CYCLE:           5
+	 INVALID_SEL
+FINISHED VALID CYCLE:           6
+	 INVALID_SEL
+FINISHED VALID CYCLE:           7
+	 INVALID_SEL
+FINISHED VALID CYCLE:           8
+	 INVALID_SEL
+FINISHED VALID CYCLE:           9
+	 INVALID_SEL
+FINISHED VALID CYCLE:          10
+	 INVALID_SEL
+FINISHED VALID CYCLE:          11
+>> TEST: invalid selection number
+>> TEST: code timeout
+	 reset to IDLE: first number timeout
+	 reset to IDLE: second number timeout
+Stopped at time : 1785 ns : File "/home/ise/Desktop/Lab3/src/testbench_305176399.v" Line 124
+ISim P.20131013 (signature 0xfbc00daa)
+WARNING: A WEBPACK license was found.
+WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
+WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
+This is a Lite version of ISim.
+# run all
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+>> TEST: no reload
+	 INVALID_SEL
+>> TEST: valid run
+>> TEST: full to empty slot
+FINISHED VALID CYCLE:           0
+	 INVALID_SEL
+FINISHED VALID CYCLE:           1
+	 INVALID_SEL
+FINISHED VALID CYCLE:           2
+	 INVALID_SEL
+FINISHED VALID CYCLE:           3
+	 INVALID_SEL
+FINISHED VALID CYCLE:           4
+	 INVALID_SEL
+FINISHED VALID CYCLE:           5
+	 INVALID_SEL
+FINISHED VALID CYCLE:           6
+	 INVALID_SEL
+FINISHED VALID CYCLE:           7
+	 INVALID_SEL
+FINISHED VALID CYCLE:           8
+	 INVALID_SEL
+FINISHED VALID CYCLE:           9
+	 INVALID_SEL
+FINISHED VALID CYCLE:          10
+	 INVALID_SEL
+FINISHED VALID CYCLE:          11
+>> TEST: invalid selection number
+>> TEST: code timeout
+	 reset to IDLE: first number timeout
+	 reset to IDLE: second number timeout
+Stopped at time : 1785 ns : File "/home/ise/Desktop/Lab3/src/testbench_305176399.v" Line 124
+ISim P.20131013 (signature 0xfbc00daa)
+WARNING: A WEBPACK license was found.
+WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
+WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
+This is a Lite version of ISim.
+# run all
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+>> TEST: no reload
+	 INVALID_SEL
+>> TEST: valid run
+>> TEST: full to empty slot
+FINISHED VALID CYCLE:           0
+	 INVALID_SEL
+FINISHED VALID CYCLE:           1
+	 INVALID_SEL
+FINISHED VALID CYCLE:           2
+	 INVALID_SEL
+FINISHED VALID CYCLE:           3
+	 INVALID_SEL
+FINISHED VALID CYCLE:           4
+	 INVALID_SEL
+FINISHED VALID CYCLE:           5
+	 INVALID_SEL
+FINISHED VALID CYCLE:           6
+	 INVALID_SEL
+FINISHED VALID CYCLE:           7
+	 INVALID_SEL
+FINISHED VALID CYCLE:           8
+	 INVALID_SEL
+FINISHED VALID CYCLE:           9
+	 INVALID_SEL
+FINISHED VALID CYCLE:          10
+	 INVALID_SEL
+FINISHED VALID CYCLE:          11
+>> TEST: invalid selection number
+>> TEST: code timeout
+	 reset to IDLE: first number timeout
+	 reset to IDLE: second number timeout
+Stopped at time : 1785 ns : File "/home/ise/Desktop/Lab3/src/testbench_305176399.v" Line 124
+ISim P.20131013 (signature 0xfbc00daa)
+WARNING: A WEBPACK license was found.
+WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
+WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
+This is a Lite version of ISim.
+# run all
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+>> TEST: no reload
+	 INVALID_SEL
+>> TEST: valid run
+>> TEST: full to empty slot
+FINISHED VALID CYCLE:           0
+	 INVALID_SEL
+FINISHED VALID CYCLE:           1
+	 INVALID_SEL
+FINISHED VALID CYCLE:           2
+	 INVALID_SEL
+FINISHED VALID CYCLE:           3
+	 INVALID_SEL
+FINISHED VALID CYCLE:           4
+	 INVALID_SEL
+FINISHED VALID CYCLE:           5
+	 INVALID_SEL
+FINISHED VALID CYCLE:           6
+	 INVALID_SEL
+FINISHED VALID CYCLE:           7
+	 INVALID_SEL
+FINISHED VALID CYCLE:           8
+	 INVALID_SEL
+FINISHED VALID CYCLE:           9
+	 INVALID_SEL
+FINISHED VALID CYCLE:          10
+	 INVALID_SEL
+FINISHED VALID CYCLE:          11
+>> TEST: invalid selection number
+>> TEST: code timeout
+	 reset to IDLE: first number timeout
+	 reset to IDLE: second number timeout
+Stopped at time : 1785 ns : File "/home/ise/Desktop/Lab3/src/testbench_305176399.v" Line 124
+ISim P.20131013 (signature 0xfbc00daa)
+WARNING: A WEBPACK license was found.
+WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
+WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
+This is a Lite version of ISim.
+# run all
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+>> TEST: no reload
+	 INVALID_SEL
+>> TEST: valid run
+>> TEST: full to empty slot
+FINISHED VALID CYCLE:           0
+	 INVALID_SEL
+FINISHED VALID CYCLE:           1
+	 INVALID_SEL
+FINISHED VALID CYCLE:           2
+	 INVALID_SEL
+FINISHED VALID CYCLE:           3
+	 INVALID_SEL
+FINISHED VALID CYCLE:           4
+	 INVALID_SEL
+FINISHED VALID CYCLE:           5
+	 INVALID_SEL
+FINISHED VALID CYCLE:           6
+	 INVALID_SEL
+FINISHED VALID CYCLE:           7
+	 INVALID_SEL
+FINISHED VALID CYCLE:           8
+	 INVALID_SEL
+FINISHED VALID CYCLE:           9
+	 INVALID_SEL
+FINISHED VALID CYCLE:          10
+	 INVALID_SEL
+FINISHED VALID CYCLE:          11
+>> TEST: invalid selection number
+>> TEST: code timeout
+	 reset to IDLE: first number timeout
+	 reset to IDLE: second number timeout
+>> TEST: door timeout
+	 INVALID_SEL
+Stopped at time : 1915 ns : File "/home/ise/Desktop/Lab3/src/testbench_305176399.v" Line 134
+ISim P.20131013 (signature 0xfbc00daa)
+WARNING: A WEBPACK license was found.
+WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
+WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
+This is a Lite version of ISim.
+# run all
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+>> TEST: no reload
+	 INVALID_SEL
+>> TEST: valid run
+>> TEST: full to empty slot
+FINISHED VALID CYCLE:           0
+	 INVALID_SEL
+FINISHED VALID CYCLE:           1
+	 INVALID_SEL
+FINISHED VALID CYCLE:           2
+	 INVALID_SEL
+FINISHED VALID CYCLE:           3
+	 INVALID_SEL
+FINISHED VALID CYCLE:           4
+	 INVALID_SEL
+FINISHED VALID CYCLE:           5
+	 INVALID_SEL
+FINISHED VALID CYCLE:           6
+	 INVALID_SEL
+FINISHED VALID CYCLE:           7
+	 INVALID_SEL
+FINISHED VALID CYCLE:           8
+	 INVALID_SEL
+FINISHED VALID CYCLE:           9
+	 INVALID_SEL
+FINISHED VALID CYCLE:          10
+	 INVALID_SEL
+FINISHED VALID CYCLE:          11
+>> TEST: invalid selection number
+>> TEST: code timeout
+	 reset to IDLE: first number timeout
+	 reset to IDLE: second number timeout
+>> TEST: door timeout
+Stopped at time : 1945 ns : File "/home/ise/Desktop/Lab3/src/testbench_305176399.v" Line 135
+ISim P.20131013 (signature 0xfbc00daa)
+WARNING: A WEBPACK license was found.
+WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
+WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
+This is a Lite version of ISim.
+# run all
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+>> TEST: no reload
+	 INVALID_SEL
+>> TEST: valid run
+>> TEST: full to empty slot
+FINISHED VALID CYCLE:           0
+	 INVALID_SEL
+FINISHED VALID CYCLE:           1
+	 INVALID_SEL
+FINISHED VALID CYCLE:           2
+	 INVALID_SEL
+FINISHED VALID CYCLE:           3
+	 INVALID_SEL
+FINISHED VALID CYCLE:           4
+	 INVALID_SEL
+FINISHED VALID CYCLE:           5
+	 INVALID_SEL
+FINISHED VALID CYCLE:           6
+	 INVALID_SEL
+FINISHED VALID CYCLE:           7
+	 INVALID_SEL
+FINISHED VALID CYCLE:           8
+	 INVALID_SEL
+FINISHED VALID CYCLE:           9
+	 INVALID_SEL
+FINISHED VALID CYCLE:          10
+	 INVALID_SEL
+FINISHED VALID CYCLE:          11
+>> TEST: invalid selection number
+>> TEST: code timeout
+	 reset to IDLE: first number timeout
+	 reset to IDLE: second number timeout
+>> TEST: door timeout
+Stopped at time : 1965 ns : File "/home/ise/Desktop/Lab3/src/testbench_305176399.v" Line 135
+ISim P.20131013 (signature 0xfbc00daa)
+WARNING: A WEBPACK license was found.
+WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
+WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
+This is a Lite version of ISim.
+# run all
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+>> TEST: no reload
+	 INVALID_SEL
+>> TEST: valid run
+>> TEST: full to empty slot
+FINISHED VALID CYCLE:           0
+	 INVALID_SEL
+FINISHED VALID CYCLE:           1
+	 INVALID_SEL
+FINISHED VALID CYCLE:           2
+	 INVALID_SEL
+FINISHED VALID CYCLE:           3
+	 INVALID_SEL
+FINISHED VALID CYCLE:           4
+	 INVALID_SEL
+FINISHED VALID CYCLE:           5
+	 INVALID_SEL
+FINISHED VALID CYCLE:           6
+	 INVALID_SEL
+FINISHED VALID CYCLE:           7
+	 INVALID_SEL
+FINISHED VALID CYCLE:           8
+	 INVALID_SEL
+FINISHED VALID CYCLE:           9
+	 INVALID_SEL
+FINISHED VALID CYCLE:          10
+	 INVALID_SEL
+FINISHED VALID CYCLE:          11
+>> TEST: invalid selection number
+>> TEST: code timeout
+	 reset to IDLE: first number timeout
+	 reset to IDLE: second number timeout
+>> TEST: door timeout
+>> TEST: door open for a long time
+Stopped at time : 2155 ns : File "/home/ise/Desktop/Lab3/src/testbench_305176399.v" Line 147
+ISim P.20131013 (signature 0xfbc00daa)
+WARNING: A WEBPACK license was found.
+WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
+WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
+This is a Lite version of ISim.
+# run all
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+>> TEST: no reload
+	 INVALID_SEL
+>> TEST: valid run
+>> TEST: full to empty slot
+FINISHED VALID CYCLE:           0
+	 INVALID_SEL
+FINISHED VALID CYCLE:           1
+	 INVALID_SEL
+FINISHED VALID CYCLE:           2
+	 INVALID_SEL
+FINISHED VALID CYCLE:           3
+	 INVALID_SEL
+FINISHED VALID CYCLE:           4
+	 INVALID_SEL
+FINISHED VALID CYCLE:           5
+	 INVALID_SEL
+FINISHED VALID CYCLE:           6
+	 INVALID_SEL
+FINISHED VALID CYCLE:           7
+	 INVALID_SEL
+FINISHED VALID CYCLE:           8
+	 INVALID_SEL
+FINISHED VALID CYCLE:           9
+	 INVALID_SEL
+FINISHED VALID CYCLE:          10
+	 INVALID_SEL
+FINISHED VALID CYCLE:          11
+>> TEST: invalid selection number
+>> TEST: code timeout
+	 reset to IDLE: first number timeout
+	 reset to IDLE: second number timeout
+>> TEST: door timeout
+>> TEST: door open for a long time
+Stopped at time : 2155 ns : File "/home/ise/Desktop/Lab3/src/testbench_305176399.v" Line 147
+ISim P.20131013 (signature 0xfbc00daa)
+WARNING: A WEBPACK license was found.
+WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
+WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
+This is a Lite version of ISim.
+# run all
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+>> TEST: no reload
+	 INVALID_SEL
+>> TEST: valid run
+>> TEST: full to empty slot
+FINISHED VALID CYCLE:           0
+	 INVALID_SEL
+FINISHED VALID CYCLE:           1
+	 INVALID_SEL
+FINISHED VALID CYCLE:           2
+	 INVALID_SEL
+FINISHED VALID CYCLE:           3
+	 INVALID_SEL
+FINISHED VALID CYCLE:           4
+	 INVALID_SEL
+FINISHED VALID CYCLE:           5
+	 INVALID_SEL
+FINISHED VALID CYCLE:           6
+	 INVALID_SEL
+FINISHED VALID CYCLE:           7
+	 INVALID_SEL
+FINISHED VALID CYCLE:           8
+	 INVALID_SEL
+FINISHED VALID CYCLE:           9
+	 INVALID_SEL
+FINISHED VALID CYCLE:          10
+	 INVALID_SEL
+FINISHED VALID CYCLE:          11
+>> TEST: invalid selection number
+>> TEST: code timeout
+	 reset to IDLE: first number timeout
+	 reset to IDLE: second number timeout
+>> TEST: door timeout
+>> TEST: door open for a long time (remain in VENDING state)
+Stopped at time : 2155 ns : File "/home/ise/Desktop/Lab3/src/testbench_305176399.v" Line 147
+ISim P.20131013 (signature 0xfbc00daa)
+WARNING: A WEBPACK license was found.
+WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
+WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
+This is a Lite version of ISim.
+# run all
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+>> TEST: no reload
+	 INVALID_SEL
+>> TEST: valid run
+>> TEST: full to empty slot
+FINISHED VALID CYCLE:           0
+	 INVALID_SEL
+FINISHED VALID CYCLE:           1
+	 INVALID_SEL
+FINISHED VALID CYCLE:           2
+	 INVALID_SEL
+FINISHED VALID CYCLE:           3
+	 INVALID_SEL
+FINISHED VALID CYCLE:           4
+	 INVALID_SEL
+FINISHED VALID CYCLE:           5
+	 INVALID_SEL
+FINISHED VALID CYCLE:           6
+	 INVALID_SEL
+FINISHED VALID CYCLE:           7
+	 INVALID_SEL
+FINISHED VALID CYCLE:           8
+	 INVALID_SEL
+FINISHED VALID CYCLE:           9
+	 INVALID_SEL
+FINISHED VALID CYCLE:          10
+	 INVALID_SEL
+FINISHED VALID CYCLE:          11
+>> TEST: invalid selection number
+>> TEST: code timeout
+	 reset to IDLE: first number timeout
+	 reset to IDLE: second number timeout
+>> TEST: door timeout
+>> TEST: door open for a long time (remain in VENDING state)
+Stopped at time : 2155 ns : File "/home/ise/Desktop/Lab3/src/testbench_305176399.v" Line 147
+ISim P.20131013 (signature 0xfbc00daa)
+WARNING: A WEBPACK license was found.
+WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
+WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
+This is a Lite version of ISim.
+# run all
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+>> TEST: no reload
+	 INVALID_SEL
+>> TEST: valid run
+HELLO
+HELLO
+HELLO
+HELLO
+HELLO
+HELLO
+HELLO
+HELLO
+HELLO
+HELLO
+HELLO
+HELLO
+HELLO
+HELLO
+HELLO
+HELLO
+HELLO
+HELLO
+HELLO
+HELLO
+HELLO
+HELLO
+HELLO
+HELLO
+HELLO
+HELLO
+HELLO
+HELLO
+HELLO
+HELLO
+HELLO
+HELLO
+HELLO
+HELLO
+HELLO
+HELLO
+HELLO
+HELLO
+HELLO
+HELLO
+>> TEST: full to empty slot
+HELLO
+HELLO
+HELLO
+HELLO
+HELLO
+HELLO
+HELLO
+HELLO
+HELLO
+HELLO
+HELLO
+HELLO
+HELLO
+HELLO
+HELLO
+HELLO
+HELLO
+HELLO
+HELLO
+HELLO
+FINISHED VALID CYCLE:           0
+	 INVALID_SEL
+FINISHED VALID CYCLE:           1
+	 INVALID_SEL
+FINISHED VALID CYCLE:           2
+	 INVALID_SEL
+FINISHED VALID CYCLE:           3
+	 INVALID_SEL
+FINISHED VALID CYCLE:           4
+	 INVALID_SEL
+FINISHED VALID CYCLE:           5
+	 INVALID_SEL
+FINISHED VALID CYCLE:           6
+	 INVALID_SEL
+FINISHED VALID CYCLE:           7
+	 INVALID_SEL
+FINISHED VALID CYCLE:           8
+	 INVALID_SEL
+FINISHED VALID CYCLE:           9
+	 INVALID_SEL
+FINISHED VALID CYCLE:          10
+	 INVALID_SEL
+FINISHED VALID CYCLE:          11
+>> TEST: invalid selection number
+HELLO
+HELLO
+HELLO
+HELLO
+HELLO
+HELLO
+HELLO
+HELLO
+HELLO
+HELLO
+HELLO
+HELLO
+HELLO
+HELLO
+HELLO
+HELLO
+HELLO
+HELLO
+HELLO
+HELLO
+>> TEST: code timeout
+HELLO
+HELLO
+HELLO
+HELLO
+HELLO
+HELLO
+HELLO
+HELLO
+HELLO
+HELLO
+HELLO
+HELLO
+HELLO
+HELLO
+HELLO
+HELLO
+HELLO
+HELLO
+HELLO
+HELLO
+	 reset to IDLE: first number timeout
+	 reset to IDLE: second number timeout
+>> TEST: door timeout
+HELLO
+HELLO
+HELLO
+HELLO
+HELLO
+HELLO
+HELLO
+HELLO
+HELLO
+HELLO
+HELLO
+HELLO
+HELLO
+HELLO
+HELLO
+HELLO
+HELLO
+HELLO
+HELLO
+HELLO
+>> TEST: door open for a long time (remain in VENDING state)
+HELLO
+HELLO
+HELLO
+HELLO
+HELLO
+HELLO
+HELLO
+HELLO
+HELLO
+HELLO
+HELLO
+HELLO
+HELLO
+HELLO
+HELLO
+HELLO
+HELLO
+HELLO
+HELLO
+HELLO
+Stopped at time : 2155 ns : File "/home/ise/Desktop/Lab3/src/testbench_305176399.v" Line 147
+ISim P.20131013 (signature 0xfbc00daa)
+WARNING: A WEBPACK license was found.
+WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
+WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
+This is a Lite version of ISim.
+# run all
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+>> TEST: no reload
+ 1
+ 1
+	 INVALID_SEL
+>> TEST: valid run
+ 1
+ 1
+>> TEST: full to empty slot
+ 1
+ 1
+FINISHED VALID CYCLE:           0
+21
+21
+	 INVALID_SEL
+FINISHED VALID CYCLE:           1
+21
+21
+	 INVALID_SEL
+FINISHED VALID CYCLE:           2
+21
+21
+	 INVALID_SEL
+FINISHED VALID CYCLE:           3
+21
+21
+	 INVALID_SEL
+FINISHED VALID CYCLE:           4
+21
+21
+	 INVALID_SEL
+FINISHED VALID CYCLE:           5
+21
+21
+	 INVALID_SEL
+FINISHED VALID CYCLE:           6
+21
+21
+	 INVALID_SEL
+FINISHED VALID CYCLE:           7
+21
+21
+	 INVALID_SEL
+FINISHED VALID CYCLE:           8
+21
+21
+	 INVALID_SEL
+FINISHED VALID CYCLE:           9
+21
+21
+	 INVALID_SEL
+FINISHED VALID CYCLE:          10
+21
+21
+	 INVALID_SEL
+FINISHED VALID CYCLE:          11
+>> TEST: invalid selection number
+ 2
+ 2
+>> TEST: code timeout
+	 reset to IDLE: first number timeout
+11
+11
+12
+12
+12
+	 reset to IDLE: second number timeout
+>> TEST: door timeout
+ 1
+ 1
+>> TEST: door open for a long time (remain in VENDING state)
+ 1
+ 1
+Stopped at time : 2155 ns : File "/home/ise/Desktop/Lab3/src/testbench_305176399.v" Line 147
+ISim P.20131013 (signature 0xfbc00daa)
+WARNING: A WEBPACK license was found.
+WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
+WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
+This is a Lite version of ISim.
+# run all
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+>> TEST: no reload
+ 1  0  1
+ 1  0  1
+	 INVALID_SEL
+>> TEST: valid run
+ 1  0  1
+ 1  0  1
+>> TEST: full to empty slot
+ 1  0  1
+ 1  0  1
+FINISHED VALID CYCLE:           0
+21  2  1
+21  2  1
+	 INVALID_SEL
+FINISHED VALID CYCLE:           1
+21  2  1
+21  2  1
+	 INVALID_SEL
+FINISHED VALID CYCLE:           2
+21  2  1
+21  2  1
+	 INVALID_SEL
+FINISHED VALID CYCLE:           3
+21  2  1
+21  2  1
+	 INVALID_SEL
+FINISHED VALID CYCLE:           4
+21  2  1
+21  2  1
+	 INVALID_SEL
+FINISHED VALID CYCLE:           5
+21  2  1
+21  2  1
+	 INVALID_SEL
+FINISHED VALID CYCLE:           6
+21  2  1
+21  2  1
+	 INVALID_SEL
+FINISHED VALID CYCLE:           7
+21  2  1
+21  2  1
+	 INVALID_SEL
+FINISHED VALID CYCLE:           8
+21  2  1
+21  2  1
+	 INVALID_SEL
+FINISHED VALID CYCLE:           9
+21  2  1
+21  2  1
+	 INVALID_SEL
+FINISHED VALID CYCLE:          10
+21  2  1
+21  2  1
+	 INVALID_SEL
+FINISHED VALID CYCLE:          11
+>> TEST: invalid selection number
+ 2  0  2
+ 2  0  2
+>> TEST: code timeout
+	 reset to IDLE: first number timeout
+11  1  1
+11  1  1
+12  1  2
+12  1  2
+12  1  2
+	 reset to IDLE: second number timeout
+>> TEST: door timeout
+ 1  0  1
+ 1  0  1
+>> TEST: door open for a long time (remain in VENDING state)
+ 1  0  1
+ 1  0  1
+Stopped at time : 2155 ns : File "/home/ise/Desktop/Lab3/src/testbench_305176399.v" Line 147
+ISim P.20131013 (signature 0xfbc00daa)
+WARNING: A WEBPACK license was found.
+WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
+WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
+This is a Lite version of ISim.
+# run all
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+>> TEST: no reload
+ x  x  1
+>> TEST: valid run
+ x  x  1
+>> TEST: full to empty slot
+ x  x  1
+FINISHED VALID CYCLE:           0
+ x  x  1
+FINISHED VALID CYCLE:           1
+ x  x  1
+FINISHED VALID CYCLE:           2
+ x  x  1
+FINISHED VALID CYCLE:           3
+ x  x  1
+FINISHED VALID CYCLE:           4
+ x  x  1
+FINISHED VALID CYCLE:           5
+ x  x  1
+FINISHED VALID CYCLE:           6
+ x  x  1
+FINISHED VALID CYCLE:           7
+ x  x  1
+FINISHED VALID CYCLE:           8
+ x  x  1
+FINISHED VALID CYCLE:           9
+ x  x  1
+FINISHED VALID CYCLE:          10
+ x  x  1
+FINISHED VALID CYCLE:          11
+>> TEST: invalid selection number
+ x  x  2
+>> TEST: code timeout
+	 reset to IDLE: first number timeout
+ x  x  1
+	 reset to IDLE: second number timeout
+>> TEST: door timeout
+ x  x  1
+>> TEST: door open for a long time (remain in VENDING state)
+ x  x  1
+Stopped at time : 2155 ns : File "/home/ise/Desktop/Lab3/src/testbench_305176399.v" Line 147
+ISim P.20131013 (signature 0xfbc00daa)
+WARNING: A WEBPACK license was found.
+WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
+WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
+This is a Lite version of ISim.
+# run all
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+>> TEST: no reload
+0
+ x  x  1
+>> TEST: valid run
+0
+ x  x  1
+>> TEST: full to empty slot
+0
+ x  x  1
+FINISHED VALID CYCLE:           0
+0
+ x  x  1
+FINISHED VALID CYCLE:           1
+0
+ x  x  1
+FINISHED VALID CYCLE:           2
+0
+ x  x  1
+FINISHED VALID CYCLE:           3
+0
+ x  x  1
+FINISHED VALID CYCLE:           4
+0
+ x  x  1
+FINISHED VALID CYCLE:           5
+0
+ x  x  1
+FINISHED VALID CYCLE:           6
+0
+ x  x  1
+FINISHED VALID CYCLE:           7
+0
+ x  x  1
+FINISHED VALID CYCLE:           8
+0
+ x  x  1
+FINISHED VALID CYCLE:           9
+0
+ x  x  1
+FINISHED VALID CYCLE:          10
+0
+ x  x  1
+FINISHED VALID CYCLE:          11
+>> TEST: invalid selection number
+0
+ x  x  2
+>> TEST: code timeout
+0
+0
+0
+0
+0
+	 reset to IDLE: first number timeout
+0
+ x  x  1
+	 reset to IDLE: second number timeout
+>> TEST: door timeout
+0
+ x  x  1
+>> TEST: door open for a long time (remain in VENDING state)
+0
+ x  x  1
+Stopped at time : 2155 ns : File "/home/ise/Desktop/Lab3/src/testbench_305176399.v" Line 147
+ISim P.20131013 (signature 0xfbc00daa)
+WARNING: A WEBPACK license was found.
+WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
+WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
+This is a Lite version of ISim.
+# run all
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+>> TEST: no reload
+ 1  0  1
+	 INVALID_SEL
+>> TEST: valid run
+ 1  0  1
+>> TEST: full to empty slot
+ 1  0  1
+FINISHED VALID CYCLE:           0
+21  2  1
+FINISHED VALID CYCLE:           1
+21  2  1
+FINISHED VALID CYCLE:           2
+21  2  1
+FINISHED VALID CYCLE:           3
+21  2  1
+FINISHED VALID CYCLE:           4
+21  2  1
+FINISHED VALID CYCLE:           5
+21  2  1
+FINISHED VALID CYCLE:           6
+21  2  1
+FINISHED VALID CYCLE:           7
+21  2  1
+FINISHED VALID CYCLE:           8
+21  2  1
+FINISHED VALID CYCLE:           9
+21  2  1
+FINISHED VALID CYCLE:          10
+21  2  1
+FINISHED VALID CYCLE:          11
+>> TEST: invalid selection number
+ 2  0  2
+>> TEST: code timeout
+	 reset to IDLE: first number timeout
+11  1  1
+	 reset to IDLE: second number timeout
+>> TEST: door timeout
+ 1  0  1
+>> TEST: door open for a long time (remain in VENDING state)
+ 1  0  1
+Stopped at time : 2155 ns : File "/home/ise/Desktop/Lab3/src/testbench_305176399.v" Line 147
+ISim P.20131013 (signature 0xfbc00daa)
+WARNING: A WEBPACK license was found.
+WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
+WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
+This is a Lite version of ISim.
+# run all
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+>> TEST: no reload
+ 1  0  1
+ 1  0  1
+	 INVALID_SEL
+>> TEST: valid run
+ 1  0  1
+ 1  0  1
+>> TEST: full to empty slot
+ 1  0  1
+ 1  0  1
+FINISHED VALID CYCLE:           0
+21  2  1
+21  2  1
+FINISHED VALID CYCLE:           1
+21  2  1
+21  2  1
+FINISHED VALID CYCLE:           2
+21  2  1
+21  2  1
+FINISHED VALID CYCLE:           3
+21  2  1
+21  2  1
+FINISHED VALID CYCLE:           4
+21  2  1
+21  2  1
+FINISHED VALID CYCLE:           5
+21  2  1
+21  2  1
+FINISHED VALID CYCLE:           6
+21  2  1
+21  2  1
+FINISHED VALID CYCLE:           7
+21  2  1
+21  2  1
+FINISHED VALID CYCLE:           8
+21  2  1
+21  2  1
+FINISHED VALID CYCLE:           9
+21  2  1
+21  2  1
+FINISHED VALID CYCLE:          10
+21  2  1
+21  2  1
+FINISHED VALID CYCLE:          11
+>> TEST: invalid selection number
+ 2  0  2
+ 2  0  2
+>> TEST: code timeout
+	 reset to IDLE: first number timeout
+11  1  1
+11  1  1
+12  1  2
+12  1  2
+12  1  2
+	 reset to IDLE: second number timeout
+>> TEST: door timeout
+ 1  0  1
+ 1  0  1
+>> TEST: door open for a long time (remain in VENDING state)
+ 1  0  1
+ 1  0  1
+Stopped at time : 2155 ns : File "/home/ise/Desktop/Lab3/src/testbench_305176399.v" Line 147
+ISim P.20131013 (signature 0xfbc00daa)
+WARNING: A WEBPACK license was found.
+WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
+WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
+This is a Lite version of ISim.
+# run all
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+>> TEST: no reload
+11  1  1
+12  1  2
+>> TEST: valid run
+11  1  1
+12  1  2
+>> TEST: full to empty slot
+11  1  1
+12  1  2
+FINISHED VALID CYCLE:           0
+11  1  1
+12  1  2
+FINISHED VALID CYCLE:           1
+11  1  1
+12  1  2
+FINISHED VALID CYCLE:           2
+11  1  1
+12  1  2
+FINISHED VALID CYCLE:           3
+11  1  1
+12  1  2
+FINISHED VALID CYCLE:           4
+11  1  1
+12  1  2
+FINISHED VALID CYCLE:           5
+11  1  1
+12  1  2
+FINISHED VALID CYCLE:           6
+11  1  1
+12  1  2
+FINISHED VALID CYCLE:           7
+11  1  1
+12  1  2
+FINISHED VALID CYCLE:           8
+11  1  1
+12  1  2
+FINISHED VALID CYCLE:           9
+11  1  1
+12  1  2
+FINISHED VALID CYCLE:          10
+11  1  1
+12  1  2
+FINISHED VALID CYCLE:          11
+>> TEST: invalid selection number
+22  2  2
+20  2  0
+>> TEST: code timeout
+	 reset to IDLE: first number timeout
+11  1  1
+12  1  2
+12  1  2
+12  1  2
+12  1  2
+	 reset to IDLE: second number timeout
+>> TEST: door timeout
+11  1  1
+18  1  8
+>> TEST: door open for a long time (remain in VENDING state)
+11  1  1
+18  1  8
+Stopped at time : 2155 ns : File "/home/ise/Desktop/Lab3/src/testbench_305176399.v" Line 147
+ISim P.20131013 (signature 0xfbc00daa)
+WARNING: A WEBPACK license was found.
+WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
+WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
+This is a Lite version of ISim.
+# run all
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+>> TEST: no reload
+11  1  1
+12  1  2
+>> TEST: valid run
+11  1  1
+12  1  2
+>> TEST: full to empty slot
+11  1  1
+12  1  2
+FINISHED VALID CYCLE:           0
+11  1  1
+12  1  2
+FINISHED VALID CYCLE:           1
+11  1  1
+12  1  2
+FINISHED VALID CYCLE:           2
+11  1  1
+12  1  2
+FINISHED VALID CYCLE:           3
+11  1  1
+12  1  2
+FINISHED VALID CYCLE:           4
+11  1  1
+12  1  2
+FINISHED VALID CYCLE:           5
+11  1  1
+12  1  2
+FINISHED VALID CYCLE:           6
+11  1  1
+12  1  2
+FINISHED VALID CYCLE:           7
+11  1  1
+12  1  2
+FINISHED VALID CYCLE:           8
+11  1  1
+12  1  2
+FINISHED VALID CYCLE:           9
+11  1  1
+12  1  2
+FINISHED VALID CYCLE:          10
+11  1  1
+12  1  2
+FINISHED VALID CYCLE:          11
+>> TEST: invalid selection number
+22  2  2
+20  2  0
+>> TEST: code timeout
+	 reset to IDLE: first number timeout
+11  1  1
+12  1  2
+12  1  2
+12  1  2
+12  1  2
+	 reset to IDLE: second number timeout
+>> TEST: door timeout
+11  1  1
+18  1  8
+>> TEST: door open for a long time (remain in VENDING state)
+11  1  1
+18  1  8
+Stopped at time : 2155 ns : File "/home/ise/Desktop/Lab3/src/testbench_305176399.v" Line 147
+ISim P.20131013 (signature 0xfbc00daa)
+WARNING: A WEBPACK license was found.
+WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
+WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
+This is a Lite version of ISim.
+# run all
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+>> TEST: no reload
+>> TEST: valid run
+>> TEST: full to empty slot
+FINISHED VALID CYCLE:           0
+FINISHED VALID CYCLE:           1
+FINISHED VALID CYCLE:           2
+FINISHED VALID CYCLE:           3
+FINISHED VALID CYCLE:           4
+FINISHED VALID CYCLE:           5
+FINISHED VALID CYCLE:           6
+FINISHED VALID CYCLE:           7
+FINISHED VALID CYCLE:           8
+FINISHED VALID CYCLE:           9
+FINISHED VALID CYCLE:          10
+FINISHED VALID CYCLE:          11
+>> TEST: invalid selection number
+>> TEST: code timeout
+	 reset to IDLE: first number timeout
+	 reset to IDLE: second number timeout
+>> TEST: door timeout
+>> TEST: door open for a long time (remain in VENDING state)
+Stopped at time : 2155 ns : File "/home/ise/Desktop/Lab3/src/testbench_305176399.v" Line 147
+ISim P.20131013 (signature 0xfbc00daa)
+WARNING: A WEBPACK license was found.
+WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
+WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
+This is a Lite version of ISim.
+# run all
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+>> TEST: no reload
+>> TEST: valid run
+12: 10 count
+>> TEST: full to empty slot
+12: 10 count
+FINISHED VALID CYCLE:           0
+12:  9 count
+FINISHED VALID CYCLE:           1
+12:  8 count
+FINISHED VALID CYCLE:           2
+12:  7 count
+FINISHED VALID CYCLE:           3
+12:  6 count
+FINISHED VALID CYCLE:           4
+12:  5 count
+FINISHED VALID CYCLE:           5
+12:  4 count
+FINISHED VALID CYCLE:           6
+12:  3 count
+FINISHED VALID CYCLE:           7
+12:  2 count
+FINISHED VALID CYCLE:           8
+12:  1 count
+FINISHED VALID CYCLE:           9
+FINISHED VALID CYCLE:          10
+FINISHED VALID CYCLE:          11
+>> TEST: invalid selection number
+20:  x count
+>> TEST: code timeout
+	 reset to IDLE: first number timeout
+	 reset to IDLE: second number timeout
+>> TEST: door timeout
+18: 10 count
+>> TEST: door open for a long time (remain in VENDING state)
+18: 10 count
+Stopped at time : 2155 ns : File "/home/ise/Desktop/Lab3/src/testbench_305176399.v" Line 147
+ISim P.20131013 (signature 0xfbc00daa)
+WARNING: A WEBPACK license was found.
+WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
+WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
+This is a Lite version of ISim.
+# run all
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+>> TEST: no reload
+	 INVALID_SEL
+>> TEST: valid run
+12: 10 count
+>> TEST: full to empty slot
+12: 10 count
+FINISHED VALID CYCLE:           0
+12:  9 count
+FINISHED VALID CYCLE:           1
+12:  8 count
+FINISHED VALID CYCLE:           2
+12:  7 count
+FINISHED VALID CYCLE:           3
+12:  6 count
+FINISHED VALID CYCLE:           4
+12:  5 count
+FINISHED VALID CYCLE:           5
+12:  4 count
+FINISHED VALID CYCLE:           6
+12:  3 count
+FINISHED VALID CYCLE:           7
+12:  2 count
+FINISHED VALID CYCLE:           8
+12:  1 count
+FINISHED VALID CYCLE:           9
+	 INVALID_SEL
+FINISHED VALID CYCLE:          10
+	 INVALID_SEL
+FINISHED VALID CYCLE:          11
+>> TEST: invalid selection number
+20:  x count
+>> TEST: code timeout
+	 reset to IDLE: first number timeout
+	 reset to IDLE: second number timeout
+>> TEST: door timeout
+18: 10 count
+>> TEST: door open for a long time (remain in VENDING state)
+18: 10 count
+Stopped at time : 2155 ns : File "/home/ise/Desktop/Lab3/src/testbench_305176399.v" Line 154
+ISim P.20131013 (signature 0xfbc00daa)
+WARNING: A WEBPACK license was found.
+WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
+WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
+This is a Lite version of ISim.
+# run all
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+>> TEST: no reload -> INVALID_SEL
+	 INVALID_SEL
+>> TEST: valid run
+>> TEST: full to empty slot
+FINISHED VALID CYCLE:           0
+FINISHED VALID CYCLE:           1
+FINISHED VALID CYCLE:           2
+FINISHED VALID CYCLE:           3
+FINISHED VALID CYCLE:           4
+FINISHED VALID CYCLE:           5
+FINISHED VALID CYCLE:           6
+FINISHED VALID CYCLE:           7
+FINISHED VALID CYCLE:           8
+FINISHED VALID CYCLE:           9
+	 INVALID_SEL
+FINISHED VALID CYCLE:          10
+	 INVALID_SEL
+FINISHED VALID CYCLE:          11
+>> TEST: invalid selection number
+>> TEST: code timeout
+	 reset to IDLE: first number timeout
+	 reset to IDLE: second number timeout
+>> TEST: door timeout
+>> TEST: door open for a long time (remain in VENDING state)
+Stopped at time : 2155 ns : File "/home/ise/Desktop/Lab3/src/testbench_305176399.v" Line 153
+ISim P.20131013 (signature 0xfbc00daa)
+WARNING: A WEBPACK license was found.
+WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
+WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
+This is a Lite version of ISim.
+# run all
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+>> TEST: no reload -> INVALID_SEL
+	 INVALID_SEL
+>> TEST: valid run
+>> TEST: full to empty slot
+FINISHED VALID CYCLE:           0
+FINISHED VALID CYCLE:           1
+FINISHED VALID CYCLE:           2
+FINISHED VALID CYCLE:           3
+FINISHED VALID CYCLE:           4
+FINISHED VALID CYCLE:           5
+FINISHED VALID CYCLE:           6
+FINISHED VALID CYCLE:           7
+FINISHED VALID CYCLE:           8
+FINISHED VALID CYCLE:           9
+	 INVALID_SEL
+FINISHED VALID CYCLE:          10
+	 INVALID_SEL
+FINISHED VALID CYCLE:          11
+>> TEST: invalid selection number
+>> TEST: code timeout
+	 reset to IDLE: first number timeout
+	 reset to IDLE: second number timeout
+>> TEST: door timeout
+>> TEST: door open for a long time (remain in VENDING state)
+>> TEST: FAILED_TRAN
+Stopped at time : 2325 ns : File "/home/ise/Desktop/Lab3/src/testbench_305176399.v" Line 160
+ISim P.20131013 (signature 0xfbc00daa)
+WARNING: A WEBPACK license was found.
+WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
+WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
+This is a Lite version of ISim.
+# run all
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+>> TEST: no reload -> INVALID_SEL
+	 INVALID_SEL
+>> TEST: valid run
+>> TEST: full to empty slot
+FINISHED VALID CYCLE:           0
+FINISHED VALID CYCLE:           1
+FINISHED VALID CYCLE:           2
+FINISHED VALID CYCLE:           3
+FINISHED VALID CYCLE:           4
+FINISHED VALID CYCLE:           5
+FINISHED VALID CYCLE:           6
+FINISHED VALID CYCLE:           7
+FINISHED VALID CYCLE:           8
+FINISHED VALID CYCLE:           9
+	 INVALID_SEL
+FINISHED VALID CYCLE:          10
+	 INVALID_SEL
+FINISHED VALID CYCLE:          11
+>> TEST: invalid selection number
+>> TEST: code timeout
+	 reset to IDLE: first number timeout
+	 reset to IDLE: second number timeout
+>> TEST: door timeout
+>> TEST: door open for a long time (remain in VENDING state)
+>> TEST: FAILED_TRAN
+Stopped at time : 2325 ns : File "/home/ise/Desktop/Lab3/src/testbench_305176399.v" Line 160
+ISim P.20131013 (signature 0xfbc00daa)
+WARNING: A WEBPACK license was found.
+WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
+WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
+This is a Lite version of ISim.
+# run all
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+>> TEST: no reload -> INVALID_SEL
+	 INVALID_SEL
+>> TEST: valid run
+	 VEND
+	 VEND
+	 VEND
+>> TEST: full to empty slot
+	 VEND
+	 VEND
+FINISHED VALID CYCLE:           0
+	 VEND
+	 VEND
+	 VEND
+FINISHED VALID CYCLE:           1
+	 VEND
+	 VEND
+	 VEND
+FINISHED VALID CYCLE:           2
+	 VEND
+	 VEND
+	 VEND
+FINISHED VALID CYCLE:           3
+	 VEND
+	 VEND
+	 VEND
+FINISHED VALID CYCLE:           4
+	 VEND
+	 VEND
+	 VEND
+FINISHED VALID CYCLE:           5
+	 VEND
+	 VEND
+	 VEND
+FINISHED VALID CYCLE:           6
+	 VEND
+	 VEND
+	 VEND
+FINISHED VALID CYCLE:           7
+	 VEND
+	 VEND
+	 VEND
+FINISHED VALID CYCLE:           8
+	 VEND
+	 VEND
+	 VEND
+FINISHED VALID CYCLE:           9
+	 VEND
+	 INVALID_SEL
+FINISHED VALID CYCLE:          10
+	 INVALID_SEL
+FINISHED VALID CYCLE:          11
+>> TEST: invalid selection number
+	 VEND
+	 VEND
+	 VEND
+>> TEST: code timeout
+	 reset to IDLE: first number timeout
+	 reset to IDLE: second number timeout
+>> TEST: door timeout
+	 VEND
+	 VEND
+	 VEND
+	 VEND
+	 VEND
+>> TEST: door open for a long time (remain in VENDING state)
+	 VEND
+	 VEND
+	 VEND
+	 VEND
+	 VEND
+	 VEND
+	 VEND
+	 VEND
+	 VEND
+>> TEST: FAILED_TRAN
+	 VEND
+	 FAILED_TRAN
+Stopped at time : 2325 ns : File "/home/ise/Desktop/Lab3/src/testbench_305176399.v" Line 164
+ISim P.20131013 (signature 0xfbc00daa)
+WARNING: A WEBPACK license was found.
+WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
+WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
+This is a Lite version of ISim.
+# run all
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+>> TEST: no reload -> INVALID_SEL
+	 INVALID_SEL
+>> TEST: valid run
+>> TEST: full to empty slot
+FINISHED VALID CYCLE:           0
+FINISHED VALID CYCLE:           1
+FINISHED VALID CYCLE:           2
+FINISHED VALID CYCLE:           3
+FINISHED VALID CYCLE:           4
+FINISHED VALID CYCLE:           5
+FINISHED VALID CYCLE:           6
+FINISHED VALID CYCLE:           7
+FINISHED VALID CYCLE:           8
+FINISHED VALID CYCLE:           9
+	 INVALID_SEL
+FINISHED VALID CYCLE:          10
+	 INVALID_SEL
+FINISHED VALID CYCLE:          11
+>> TEST: invalid selection number
+>> TEST: code timeout
+	 reset to IDLE: first number timeout
+	 reset to IDLE: second number timeout
+>> TEST: door timeout
+>> TEST: door open for a long time (remain in VENDING state)
+>> TEST: FAILED_TRAN
+	 FAILED_TRAN
+Stopped at time : 2325 ns : File "/home/ise/Desktop/Lab3/src/testbench_305176399.v" Line 164
+ISim P.20131013 (signature 0xfbc00daa)
+WARNING: A WEBPACK license was found.
+WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
+WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
+This is a Lite version of ISim.
+# run all
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+>> TEST: no reload -> INVALID_SEL
+	 INVALID_SEL
+>> TEST: valid run
+>> TEST: full to empty slot
+FINISHED VALID CYCLE:           0
+FINISHED VALID CYCLE:           1
+FINISHED VALID CYCLE:           2
+FINISHED VALID CYCLE:           3
+FINISHED VALID CYCLE:           4
+FINISHED VALID CYCLE:           5
+FINISHED VALID CYCLE:           6
+FINISHED VALID CYCLE:           7
+FINISHED VALID CYCLE:           8
+FINISHED VALID CYCLE:           9
+	 INVALID_SEL
+FINISHED VALID CYCLE:          10
+	 INVALID_SEL
+FINISHED VALID CYCLE:          11
+>> TEST: invalid selection number
+>> TEST: key press timeout
+	 reset to IDLE: first number timeout
+	 reset to IDLE: second number timeout
+>> TEST: door timeout
+>> TEST: door open for a long time (remain in VENDING state)
+>> TEST: Faield transaction
+	 FAILED_TRAN
+Stopped at time : 2325 ns : File "/home/ise/Desktop/Lab3/src/testbench_305176399.v" Line 164
+ISim P.20131013 (signature 0xfbc00daa)
+WARNING: A WEBPACK license was found.
+WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
+WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
+This is a Lite version of ISim.
+# run all
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+>> TEST: no reload -> INVALID_SEL
+	 INVALID_SEL
+>> TEST: valid run
+>> TEST: full to empty slot
+FINISHED VALID CYCLE:           0
+FINISHED VALID CYCLE:           1
+FINISHED VALID CYCLE:           2
+FINISHED VALID CYCLE:           3
+FINISHED VALID CYCLE:           4
+FINISHED VALID CYCLE:           5
+FINISHED VALID CYCLE:           6
+FINISHED VALID CYCLE:           7
+FINISHED VALID CYCLE:           8
+FINISHED VALID CYCLE:           9
+	 INVALID_SEL
+FINISHED VALID CYCLE:          10
+	 INVALID_SEL
+FINISHED VALID CYCLE:          11
+>> TEST: invalid selection number
+>> TEST: key press timeout
+	 reset to IDLE: first number timeout
+	 reset to IDLE: second number timeout
+>> TEST: door timeout
+>> TEST: door open for a long time (remain in VENDING state)
+>> TEST: Faield transaction
+	 FAILED_TRAN
+Stopped at time : 2325 ns : File "/home/ise/Desktop/Lab3/src/testbench_305176399.v" Line 159
+ISim P.20131013 (signature 0xfbc00daa)
+WARNING: A WEBPACK license was found.
+WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
+WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
+This is a Lite version of ISim.
+# run all
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+>> TEST: no reload -> INVALID_SEL
+	 INVALID_SEL
+>> TEST: valid run
+>> TEST: full to empty slot
+FINISHED VALID CYCLE:           0
+FINISHED VALID CYCLE:           1
+FINISHED VALID CYCLE:           2
+FINISHED VALID CYCLE:           3
+FINISHED VALID CYCLE:           4
+FINISHED VALID CYCLE:           5
+FINISHED VALID CYCLE:           6
+FINISHED VALID CYCLE:           7
+FINISHED VALID CYCLE:           8
+FINISHED VALID CYCLE:           9
+	 INVALID_SEL
+FINISHED VALID CYCLE:          10
+	 INVALID_SEL
+FINISHED VALID CYCLE:          11
+>> TEST: invalid selection number
+>> TEST: key press timeout
+	 reset to IDLE: first number timeout
+	 reset to IDLE: second number timeout
+>> TEST: door timeout
+>> TEST: door open for a long time (remain in VENDING state)
+>> TEST: Failed transaction
+	 FAILED_TRAN
+Stopped at time : 2325 ns : File "/home/ise/Desktop/Lab3/src/testbench_305176399.v" Line 159
+ISim P.20131013 (signature 0xfbc00daa)
+WARNING: A WEBPACK license was found.
+WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
+WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
+This is a Lite version of ISim.
+# run all
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+>> TEST: no reload -> INVALID_SEL
+	 INVALID_SEL
+>> TEST: valid run
+>> TEST: full to empty slot
+FINISHED VALID CYCLE:           0
+FINISHED VALID CYCLE:           1
+FINISHED VALID CYCLE:           2
+FINISHED VALID CYCLE:           3
+FINISHED VALID CYCLE:           4
+FINISHED VALID CYCLE:           5
+FINISHED VALID CYCLE:           6
+FINISHED VALID CYCLE:           7
+FINISHED VALID CYCLE:           8
+FINISHED VALID CYCLE:           9
+	 INVALID_SEL
+FINISHED VALID CYCLE:          10
+	 INVALID_SEL
+FINISHED VALID CYCLE:          11
+>> TEST: invalid selection number
+>> TEST: key press timeout
+	 reset to IDLE: first number timeout
+	 reset to IDLE: second number timeout
+>> TEST: door timeout
+>> TEST: door open for a long time (remain in VENDING state)
+>> TEST: Failed transaction
+	 FAILED_TRAN
+Stopped at time : 2325 ns : File "/home/ise/Desktop/Lab3/src/testbench_305176399.v" Line 159
+ISim P.20131013 (signature 0xfbc00daa)
+WARNING: A WEBPACK license was found.
+WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
+WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
+This is a Lite version of ISim.
+# run all
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+>> TEST: no reload -> INVALID_SEL
+	 INVALID_SEL
+>> TEST: valid run
+12
+12
+>> TEST: full to empty slot
+12
+12
+FINISHED VALID CYCLE:           0
+12
+12
+FINISHED VALID CYCLE:           1
+12
+12
+FINISHED VALID CYCLE:           2
+12
+12
+FINISHED VALID CYCLE:           3
+12
+12
+FINISHED VALID CYCLE:           4
+12
+12
+FINISHED VALID CYCLE:           5
+12
+12
+FINISHED VALID CYCLE:           6
+12
+12
+FINISHED VALID CYCLE:           7
+12
+12
+FINISHED VALID CYCLE:           8
+12
+12
+FINISHED VALID CYCLE:           9
+	 INVALID_SEL
+FINISHED VALID CYCLE:          10
+	 INVALID_SEL
+FINISHED VALID CYCLE:          11
+>> TEST: invalid selection number
+20
+20
+>> TEST: key press timeout
+	 reset to IDLE: first number timeout
+	 reset to IDLE: second number timeout
+>> TEST: door timeout
+18
+18
+18
+18
+18
+18
+>> TEST: door open for a long time (remain in VENDING state)
+18
+18
+18
+18
+18
+18
+18
+18
+18
+18
+>> TEST: Failed transaction
+	 FAILED_TRAN
+Stopped at time : 2325 ns : File "/home/ise/Desktop/Lab3/src/testbench_305176399.v" Line 159
+ISim P.20131013 (signature 0xfbc00daa)
+WARNING: A WEBPACK license was found.
+WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
+WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
+This is a Lite version of ISim.
+# run all
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+>> TEST: no reload -> INVALID_SEL
+	 INVALID_SEL
+>> TEST: valid run
+12
+12
+>> TEST: full to empty slot
+12
+12
+FINISHED VALID CYCLE:           0
+12
+12
+FINISHED VALID CYCLE:           1
+12
+12
+FINISHED VALID CYCLE:           2
+12
+12
+FINISHED VALID CYCLE:           3
+12
+12
+FINISHED VALID CYCLE:           4
+12
+12
+FINISHED VALID CYCLE:           5
+12
+12
+FINISHED VALID CYCLE:           6
+12
+12
+FINISHED VALID CYCLE:           7
+12
+12
+FINISHED VALID CYCLE:           8
+12
+12
+FINISHED VALID CYCLE:           9
+	 INVALID_SEL
+FINISHED VALID CYCLE:          10
+	 INVALID_SEL
+FINISHED VALID CYCLE:          11
+>> TEST: invalid selection number
+	 INVALID_SEL
+>> TEST: key press timeout
+	 reset to IDLE: first number timeout
+	 reset to IDLE: second number timeout
+>> TEST: door timeout
+18
+18
+18
+18
+18
+18
+>> TEST: door open for a long time (remain in VENDING state)
+18
+18
+18
+18
+18
+18
+18
+18
+18
+18
+>> TEST: Failed transaction
+	 FAILED_TRAN
+Stopped at time : 2325 ns : File "/home/ise/Desktop/Lab3/src/testbench_305176399.v" Line 159
+ISim P.20131013 (signature 0xfbc00daa)
+WARNING: A WEBPACK license was found.
+WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
+WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
+This is a Lite version of ISim.
+# run all
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+>> TEST: no reload -> INVALID_SEL
+	 INVALID_SEL
+>> TEST: valid run
+>> TEST: full to empty slot
+FINISHED VALID CYCLE:           0
+FINISHED VALID CYCLE:           1
+FINISHED VALID CYCLE:           2
+FINISHED VALID CYCLE:           3
+FINISHED VALID CYCLE:           4
+FINISHED VALID CYCLE:           5
+FINISHED VALID CYCLE:           6
+FINISHED VALID CYCLE:           7
+FINISHED VALID CYCLE:           8
+FINISHED VALID CYCLE:           9
+	 INVALID_SEL
+FINISHED VALID CYCLE:          10
+	 INVALID_SEL
+FINISHED VALID CYCLE:          11
+>> TEST: invalid selection number
+	 INVALID_SEL
+>> TEST: key press timeout
+	 reset to IDLE: first number timeout
+	 reset to IDLE: second number timeout
+>> TEST: door timeout
+>> TEST: door open for a long time (remain in VENDING state)
+>> TEST: Failed transaction
+	 FAILED_TRAN
+Stopped at time : 2325 ns : File "/home/ise/Desktop/Lab3/src/testbench_305176399.v" Line 159
+ISim P.20131013 (signature 0xfbc00daa)
+WARNING: A WEBPACK license was found.
+WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
+WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
+This is a Lite version of ISim.
+# run all
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+>> TEST: no reload -> INVALID_SEL
+	 INVALID_SEL
+>> TEST: valid run
+>> TEST: full to empty slot
+FINISHED VALID CYCLE:           0
+FINISHED VALID CYCLE:           1
+FINISHED VALID CYCLE:           2
+FINISHED VALID CYCLE:           3
+FINISHED VALID CYCLE:           4
+FINISHED VALID CYCLE:           5
+FINISHED VALID CYCLE:           6
+FINISHED VALID CYCLE:           7
+FINISHED VALID CYCLE:           8
+FINISHED VALID CYCLE:           9
+	 INVALID_SEL
+FINISHED VALID CYCLE:          10
+	 INVALID_SEL
+FINISHED VALID CYCLE:          11
+>> TEST: invalid selection number
+	 INVALID_SEL
+>> TEST: key press timeout
+	 INVALID_SEL
+	 reset to IDLE: first number timeout
+	 INVALID_SEL
+	 reset to IDLE: second number timeout
+>> TEST: door timeout
+>> TEST: door open for a long time (remain in VENDING state)
+>> TEST: Failed transaction
+	 FAILED_TRAN
+Stopped at time : 2325 ns : File "/home/ise/Desktop/Lab3/src/testbench_305176399.v" Line 159
+ISim P.20131013 (signature 0xfbc00daa)
+WARNING: A WEBPACK license was found.
+WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
+WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
+This is a Lite version of ISim.
+# run all
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+>> TEST: no reload -> INVALID_SEL
+	 INVALID_SEL
+>> TEST: valid run
+>> TEST: full to empty slot
+FINISHED VALID CYCLE:           0
+FINISHED VALID CYCLE:           1
+FINISHED VALID CYCLE:           2
+FINISHED VALID CYCLE:           3
+FINISHED VALID CYCLE:           4
+FINISHED VALID CYCLE:           5
+FINISHED VALID CYCLE:           6
+FINISHED VALID CYCLE:           7
+FINISHED VALID CYCLE:           8
+FINISHED VALID CYCLE:           9
+	 INVALID_SEL
+FINISHED VALID CYCLE:          10
+	 INVALID_SEL
+FINISHED VALID CYCLE:          11
+>> TEST: invalid selection number
+	 INVALID_SEL
+>> TEST: key press timeout
+	 INVALID_SEL
+	 reset to IDLE: first number timeout
+	 INVALID_SEL
+	 reset to IDLE: second number timeout
+>> TEST: door timeout
+>> TEST: door open for a long time (remain in VENDING state)
+>> TEST: Failed transaction
+	 FAILED_TRAN
+Stopped at time : 2325 ns : File "/home/ise/Desktop/Lab3/src/testbench_305176399.v" Line 159

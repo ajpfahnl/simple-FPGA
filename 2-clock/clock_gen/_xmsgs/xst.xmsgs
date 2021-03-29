@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="info" file="Xst" num="1767" delta="new" >HDL ADVISOR - Resource sharing has identified that some arithmetic operations in this design can share the same physical resources for reduced device utilization. For improved clock frequency you may try to disable resource sharing.
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">task_one/a_0</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">clock_gen</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">2 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;task_two/a_0&gt; &lt;task_four/a_0&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">task_one/a_1</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">clock_gen</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;task_four/a_1&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">task_one/a_2</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">clock_gen</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;task_four/tc_0&gt; </arg>
+</msg>
+
+</messages>
+

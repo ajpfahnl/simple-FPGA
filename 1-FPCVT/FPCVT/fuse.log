@@ -1,0 +1,24 @@
+Running: /opt/Xilinx/14.7/ISE_DS/ISE/bin/lin64/unwrapped/fuse -relaunch -intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -lib "secureip" -o "/home/ise/Desktop/Lab1/FPCVT/testbench_305176399_isim_beh.exe" -prj "/home/ise/Desktop/Lab1/FPCVT/testbench_305176399_beh.prj" "work.testbench_305176399" "work.glbl" 
+ISim P.20131013 (signature 0xfbc00daa)
+Number of CPUs detected in this system: 1
+Turning on mult-threading, number of parallel sub-compilation jobs: 0 
+Determining compilation order of HDL files
+Analyzing Verilog file "/home/ise/Desktop/Lab1/FPCVT/../src/FPCVT.v" into library work
+Analyzing Verilog file "/home/ise/Desktop/Lab1/FPCVT/../src/testbench_305176399.v" into library work
+Analyzing Verilog file "/opt/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Starting static elaboration
+Completed static elaboration
+Fuse Memory Usage: 94936 KB
+Fuse CPU Usage: 920 ms
+Compiling module twos2SignMag
+Compiling module basicLin2FP
+Compiling module rounder
+Compiling module FPCVT
+Compiling module testbench_305176399
+Compiling module glbl
+Time Resolution for simulation is 1ps.
+Compiled 6 Verilog Units
+Built simulation executable /home/ise/Desktop/Lab1/FPCVT/testbench_305176399_isim_beh.exe
+Fuse Memory Usage: 98236 KB
+Fuse CPU Usage: 920 ms
+GCC CPU Usage: 130 ms
